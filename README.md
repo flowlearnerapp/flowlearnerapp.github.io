@@ -4,7 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to FlowLearner</title>
     <style>
-        /* Dark Mode Styles */
         body {
             background-color: #000000;
             color: #fff;
@@ -18,7 +17,6 @@
             position: relative;
         }
 
-        /* Add blur effect only to the background */
         ::after {
             content: "";
             position: absolute;
@@ -90,8 +88,8 @@
             color: #333;
             text-decoration: none;
             font-weight: bold;
-            width: 200px;  /* Ensures consistent size for each social media container */
-            height: 80px;  /* Ensures equal height for each container */
+            width: 200px;
+            height: 80px;
             text-align: center;
             transition: background-color 0.3s ease;
         }
@@ -119,7 +117,6 @@
             transform: translateX(-50%);
         }
 
-        /* Media Query for Smaller Screens */
         @media (max-width: 768px) {
             h1 {
                 font-size: 2em;
@@ -150,12 +147,11 @@
             }
         }
 
-        /* Media Query for Extra Small Screens */
         @media (max-width: 480px) {
             .container {
                 padding: 15px;
                 max-width: 100%;
-                background: rgba(255, 255, 255, 0.9); /* More opaque background */
+                background: rgba(255, 255, 255, 0.9);
             }
 
             h1 {
