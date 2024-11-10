@@ -198,13 +198,13 @@
             <p>Hi Future Flowlearner.</p>
         </div>
 
-<h1>Welcome to the Official FlowLearnerApp Website</h1>
+<h1>Welcome to the Official FlowLearnerApp Website.</h1>
 
 <h1>Our app will be launching soon! Follow us on social media to be one of the first Flowlearners.</h1>
         
         <!-- New social media container -->
         <div class="social-media-container">
-            <p>Follow us for updates:</p>
+            <p>Follow us for updates</p>
             <div class="social-media">
                 <a href="https://www.instagram.com/flowlearnerapp/profilecard/?igsh=ZTZuZGxmeDh4NHk5" target="_blank">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" alt="Instagram"> 
