@@ -193,10 +193,10 @@
 </head>
 <body>
     <div class="container">
-        <h1>Hi Future Flowlearner, and Welcome to the Official FlowLearnerApp Website</h1>
+        <h1>Our app will be launching soon! Follow us on social media to be one of the first Flowlearners.</h1>
         
         <div class="cta">
-            <p>Our app will be launching soon! Follow us on social media to be one of the first Flowlearners.</p>
+            <p>Hi Future Flowlearner, and Welcome to the Official FlowLearnerApp Website</p>
         </div>
         
         <!-- New social media container -->
