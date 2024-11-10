@@ -195,8 +195,10 @@
     <div class="container">
         
         <div class="cta">
-            <p>Hi Future Flowlearner, and Welcome to the Official FlowLearnerApp Website</p>
+            <p>Hi Future Flowlearner.</p>
         </div>
+
+<h1>Welcome to the Official FlowLearnerApp Website</h1>
 
 <h1>Our app will be launching soon! Follow us on social media to be one of the first Flowlearners.</h1>
         
