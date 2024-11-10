@@ -108,6 +108,68 @@
             left: 50%;
             transform: translateX(-50%);  /* Centering the footer text */
         }
+
+        /* Media Query for Smaller Screens */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em; /* Smaller font size for smaller screens */
+                margin-bottom: 15px;
+            }
+
+            .cta p {
+                font-size: 1.2em; /* Adjusting text size */
+            }
+
+            .cta a {
+                padding: 8px 16px; /* Smaller buttons on mobile */
+                font-size: 1em; /* Adjusting font size */
+            }
+
+            .social-media a {
+                font-size: 1em; /* Smaller social media links */
+                padding: 8px 16px;
+            }
+
+            .social-media img {
+                width: 35px; /* Adjusting icon size */
+            }
+
+            footer {
+                font-size: 0.9em; /* Smaller footer text */
+            }
+        }
+
+        /* Media Query for Extra Small Screens (phones in portrait mode) */
+        @media (max-width: 480px) {
+            .container {
+                padding: 15px; /* Less padding on very small screens */
+                max-width: 100%; /* Full width container */
+            }
+
+            h1 {
+                font-size: 1.8em; /* Even smaller font size for very small screens */
+                margin-bottom: 10px;
+            }
+
+            .cta p {
+                font-size: 1.1em; /* Smaller font size for smaller screens */
+            }
+
+            .cta a {
+                font-size: 0.9em; /* Further reducing font size for buttons */
+                padding: 6px 12px;
+            }
+
+            .social-media a {
+                font-size: 0.9em; /* Smaller social media links */
+                padding: 6px 12px;
+            }
+
+            footer {
+                font-size: 0.8em; /* Even smaller footer text */
+                padding-bottom: 10px;
+            }
+        }
     </style>
 </head>
 <body>
