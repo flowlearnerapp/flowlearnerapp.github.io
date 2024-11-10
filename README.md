@@ -50,19 +50,31 @@
             margin-top: 50px;
             padding-bottom: 20px;
         }
+
+        .social-media {
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
+    <h1>Hi Future Flowlearner, and Welcome to the Official FlowLearnerApp Website</h1>
+    
     <div class="cta">
-        Follow us for updates: 
-        <a href="#">Facebook</a> | 
-        <a href="#">Instagram</a> | 
-        <a href="#">LinkedIn</a> | 
-        <a href="#">YouTube</a>
+        <p>Our app will be launching soon! Follow us on social media to be one of the first Flowlearners.</p>
+        <p>Or at least one of the first ;) </p>
+    </div>
+    
+    <div class="social-media">
+        <p>Follow us for updates:</p>
+        <a href="https://www.instagram.com/flowlearnerapp/profilecard/?igsh=ZTZuZGxmeDh4NHk5" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" alt="Instagram" style="width: 40px; vertical-align: middle; margin-right: 10px;"> 
+            Instagram
+        </a>
+        <p>Stay tuned for more updates!</p>
     </div>
     
     <footer>
-        Stay tuned for more updates!
+        <p>© 2024 FlowLearner. All rights reserved.</p>
     </footer>
 </body>
 </html>
