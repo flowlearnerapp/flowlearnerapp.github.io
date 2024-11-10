@@ -48,6 +48,7 @@
             font-weight: bold;
             color: #fff;  /* White text */
             margin-bottom: 20px;
+            text-align: center; /* Center the title */
         }
 
         .cta p {
@@ -186,6 +187,18 @@
             <a href="https://www.instagram.com/flowlearnerapp/profilecard/?igsh=ZTZuZGxmeDh4NHk5" target="_blank">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" alt="Instagram"> 
                 Instagram
+            </a>
+            <a href="https://www.tiktok.com/@flowlearnerapp?_t=8rHsPTZSn1k&_r=1" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/TikTok_logo_2018.svg" alt="TikTok"> 
+                TikTok
+            </a>
+            <a href="https://x.com/flowlearnerapp?s=09" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/X_logo_%282023%29.svg/1024px-X_logo_%282023%29.svg.png" alt="X"> 
+                X (formerly Twitter)
+            </a>
+            <a href="https://youtube.com/@flowlearnerapp?si=Twh5d4r_0XDF2ahq" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube"> 
+                YouTube
             </a>
         </div>
     </div>
