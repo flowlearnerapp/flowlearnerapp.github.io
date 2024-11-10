@@ -6,13 +6,13 @@
     <style>
         /* Dark Mode Styles */
         body {
-            background-color: #000000;  /* Pitch black background */
-            color: #fff;  /* White text color for contrast */
+            background-color: #000000;
+            color: #fff;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             height: 100vh;
-            background-image: url('https://source.unsplash.com/1600x900/?colorful,blur,bokeh'); /* Random colorful background with blur effect */
+            background-image: url('https://source.unsplash.com/1600x900/?colorful,blur,bokeh');
             background-size: cover;
             background-position: center;
             position: relative;
@@ -34,21 +34,21 @@
         .container {
             position: relative;
             z-index: 1;
-            background: rgba(255, 255, 255, 0.6); /* Semi-transparent white background */
+            background: rgba(255, 255, 255, 0.6);
             padding: 30px;
-            border-radius: 15px;  /* Rounded corners */
+            border-radius: 15px;
             max-width: 800px;
             margin: 0 auto;
             text-align: center;
-            backdrop-filter: blur(10px); /* Background blur effect */
+            backdrop-filter: blur(10px);
         }
 
         h1 {
             font-size: 2.5em;
             font-weight: bold;
-            color: #fff;  /* White text */
+            color: #fff;
             margin-bottom: 20px;
-            text-align: center; /* Center the title */
+            text-align: center;
         }
 
         .cta p {
@@ -62,13 +62,13 @@
             margin: 0 10px;
             font-weight: bold;
             padding: 10px 20px;
-            border-radius: 50px;  /* Bubbles effect */
-            background-color: #333;  /* Dark bubble background */
+            border-radius: 50px;
+            background-color: #333;
             transition: background-color 0.3s ease;
         }
 
         .cta a:hover {
-            background-color: #555;  /* Lighter bubble on hover */
+            background-color: #555;
         }
 
         .social-media {
@@ -79,7 +79,7 @@
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            background-color: #ccc;  /* Grey background for rounded box */
+            background-color: #ccc;
             padding: 10px 20px;
             border-radius: 50px;
             color: #333;
@@ -88,7 +88,7 @@
         }
 
         .social-media a:hover {
-            background-color: #bbb;  /* Lighter grey on hover */
+            background-color: #bbb;
         }
 
         .social-media img {
@@ -107,67 +107,68 @@
             bottom: 0;
             width: 100%;
             left: 50%;
-            transform: translateX(-50%);  /* Centering the footer text */
+            transform: translateX(-50%);
         }
 
         /* Media Query for Smaller Screens */
         @media (max-width: 768px) {
             h1 {
-                font-size: 2em; /* Smaller font size for smaller screens */
+                font-size: 2em;
                 margin-bottom: 15px;
             }
 
             .cta p {
-                font-size: 1.2em; /* Adjusting text size */
+                font-size: 1.2em;
             }
 
             .cta a {
-                padding: 8px 16px; /* Smaller buttons on mobile */
-                font-size: 1em; /* Adjusting font size */
+                padding: 8px 16px;
+                font-size: 1em;
             }
 
             .social-media a {
-                font-size: 1em; /* Smaller social media links */
+                font-size: 1em;
                 padding: 8px 16px;
             }
 
             .social-media img {
-                width: 35px; /* Adjusting icon size */
+                width: 35px;
             }
 
             footer {
-                font-size: 0.9em; /* Smaller footer text */
+                font-size: 0.9em;
             }
         }
 
-        /* Media Query for Extra Small Screens (phones in portrait mode) */
+        /* Media Query for Extra Small Screens */
         @media (max-width: 480px) {
             .container {
-                padding: 15px; /* Less padding on very small screens */
-                max-width: 100%; /* Full width container */
+                padding: 15px;
+                max-width: 100%;
+                background: rgba(255, 255, 255, 0.9); /* More opaque background */
             }
 
             h1 {
-                font-size: 1.8em; /* Even smaller font size for very small screens */
+                font-size: 1.8em;
                 margin-bottom: 10px;
             }
 
             .cta p {
-                font-size: 1.1em; /* Smaller font size for smaller screens */
+                font-size: 1.1em;
             }
 
             .cta a {
-                font-size: 0.9em; /* Further reducing font size for buttons */
+                font-size: 0.9em;
                 padding: 6px 12px;
             }
 
             .social-media a {
-                font-size: 0.9em; /* Smaller social media links */
+                font-size: 0.9em;
                 padding: 6px 12px;
             }
 
             footer {
-                font-size: 0.8em; /* Even smaller footer text */
+                font-size: 0.8em;
                 padding-bottom: 10px;
             }
         }
@@ -193,7 +194,7 @@
                 TikTok
             </a>
             <a href="https://x.com/flowlearnerapp?s=09" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/X_logo_%282023%29.svg/1024px-X_logo_%282023%29.svg.png" alt="X"> 
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/X_logo_%282023%29.svg" alt="X"> 
                 X (formerly Twitter)
             </a>
             <a href="https://youtube.com/@flowlearnerapp?si=Twh5d4r_0XDF2ahq" target="_blank">
