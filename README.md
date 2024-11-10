@@ -73,18 +73,27 @@
 
         .social-media {
             margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
         }
 
         .social-media a {
-            display: inline-flex;
+            display: flex;
             align-items: center;
             justify-content: center;
             background-color: #ccc;
-            padding: 10px 20px;
+            padding: 20px;
             border-radius: 50px;
             color: #333;
             text-decoration: none;
             font-weight: bold;
+            width: 200px;  /* Ensures consistent size for each social media container */
+            height: 80px;  /* Ensures equal height for each container */
+            text-align: center;
+            transition: background-color 0.3s ease;
         }
 
         .social-media a:hover {
@@ -129,6 +138,7 @@
             .social-media a {
                 font-size: 1em;
                 padding: 8px 16px;
+                width: 180px;
             }
 
             .social-media img {
@@ -165,6 +175,7 @@
             .social-media a {
                 font-size: 0.9em;
                 padding: 6px 12px;
+                width: 160px;
             }
 
             footer {
