@@ -69,12 +69,22 @@
             background-color: #555;
         }
 
-        .social-media {
+        .social-media-container {
             margin-top: 20px;
+            text-align: center;
+        }
+
+        .social-media-container p {
+            font-size: 1.5em;
+            color: #fff;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .social-media {
             display: flex;
             justify-content: center;
             align-items: center;
-            flex-wrap: wrap;
             gap: 20px;
         }
 
@@ -102,13 +112,6 @@
             width: 40px;
             vertical-align: middle;
             margin-right: 10px;
-        }
-
-        .social-media p {
-            font-size: 2em;
-            color: #fff;
-            font-weight: bold;
-            margin: 0;
         }
 
         footer {
@@ -196,20 +199,29 @@
             <p>Our app will be launching soon! Follow us on social media to be one of the first Flowlearners.</p>
         </div>
         
-        <div class="social-media">
+        <!-- New social media container -->
+        <div class="social-media-container">
             <p>Follow us for updates:</p>
-            <a href="https://www.instagram.com/flowlearnerapp/profilecard/?igsh=ZTZuZGxmeDh4NHk5" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" alt="Instagram"> 
-                Instagram
-            </a>
-            <a href="https://www.tiktok.com/@flowlearnerapp?_t=8rHsPTZSn1k&_r=1" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/TikTok_logo_2018.svg" alt="TikTok"> 
-                TikTok
-            </a>
-            <a href="https://x.com/flowlearnerapp?s=09" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/X_logo_%282023%29.svg" alt="X"> 
-                X (formerly Twitter)
-            </a>
+            <div class="social-media">
+                <a href="https://www.instagram.com/flowlearnerapp/profilecard/?igsh=ZTZuZGxmeDh4NHk5" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" alt="Instagram"> 
+                    Instagram
+                </a>
+                <a href="https://www.tiktok.com/@flowlearnerapp?_t=8rHsPTZSn1k&_r=1" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/TikTok_logo_2018.svg" alt="TikTok"> 
+                    TikTok
+                </a>
+                <a href="https://x.com/flowlearnerapp?s=09" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/X_logo_%282023%29.svg" alt="X"> 
+                    X (formerly Twitter)
+                </a>
+            </div>
+        </div>
+        
+        <!-- YouTube link (Colette spot) -->
+        <div class="cta">
+            <p>Check out our YouTube channel:</p>
+            <a href="https://youtube.com/@flowlearnerapp?si=Twh5d4r_0XDF2ahq" target="_blank">YouTube</a>
         </div>
     </div>
     
