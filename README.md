@@ -15,8 +15,20 @@
             background-image: url('https://source.unsplash.com/1600x900/?colorful,blur,bokeh'); /* Random colorful background with blur effect */
             background-size: cover;
             background-position: center;
-            filter: blur(5px); /* Apply a subtle blur to the background */
             position: relative;
+        }
+
+        /* Add blur effect only to the background */
+        ::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: inherit;
+            filter: blur(5px);
+            z-index: -1;
         }
 
         .container {
@@ -91,8 +103,10 @@
             margin-top: 50px;
             padding-bottom: 20px;
             position: fixed;
-            bottom: 10px;
+            bottom: 0;
             width: 100%;
+            left: 50%;
+            transform: translateX(-50%);  /* Centering the footer text */
         }
     </style>
 </head>
