@@ -72,7 +72,7 @@
         .social-media {
             margin-top: 20px;
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
             align-items: center;
             flex-wrap: wrap;
             gap: 20px;
@@ -104,6 +104,13 @@
             margin-right: 10px;
         }
 
+        .social-media p {
+            font-size: 2em;
+            color: #fff;
+            font-weight: bold;
+            margin: 0;
+        }
+
         footer {
             font-size: 1em;
             text-align: center;
@@ -115,23 +122,6 @@
             width: 100%;
             left: 50%;
             transform: translateX(-50%);
-        }
-
-        .embed-container {
-            position: relative;
-            padding-bottom: 56.25%;
-            height: 0;
-            overflow: hidden;
-            max-width: 100%;
-            margin-top: 20px;
-        }
-
-        .embed-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
         }
 
         @media (max-width: 768px) {
@@ -204,12 +194,6 @@
         
         <div class="cta">
             <p>Our app will be launching soon! Follow us on social media to be one of the first Flowlearners.</p>
-            <p>Or at least one of the first ;) </p>
-        </div>
-
-        <!-- Embed YouTube Video -->
-        <div class="embed-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/your_video_id" frameborder="0" allowfullscreen></iframe>
         </div>
         
         <div class="social-media">
@@ -225,10 +209,6 @@
             <a href="https://x.com/flowlearnerapp?s=09" target="_blank">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/X_logo_%282023%29.svg" alt="X"> 
                 X (formerly Twitter)
-            </a>
-            <a href="https://youtube.com/@flowlearnerapp?si=Twh5d4r_0XDF2ahq" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube"> 
-                YouTube
             </a>
         </div>
     </div>
