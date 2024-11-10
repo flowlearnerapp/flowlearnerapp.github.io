@@ -6,7 +6,7 @@
     <style>
         /* Dark Mode Styles */
         body {
-            background-color: #3e6240;  /* Background color */
+            background-color: #000000;  /* Pitch black background */
             color: #fff;  /* White text color for contrast */
             font-family: Arial, sans-serif;
             margin: 0;
@@ -21,18 +21,10 @@
             padding-top: 30px;
         }
 
-        .announcement {
-            font-size: 1.8em;
-            text-align: center;
-            color: #8b7536;  /* Lesson portent color */
-            padding: 20px 0;
-            background-color: #733532;  /* Subtle background for the announcement */
-        }
-
         .cta {
             text-align: center;
-            font-size: 1.2em;
-            color: #8b572a;  /* Less important color */
+            font-size: 1.5em;
+            color: #fff;  /* White text */
             margin-top: 30px;
         }
 
@@ -41,43 +33,29 @@
             text-decoration: none;
             margin: 0 10px;
             font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 50px;  /* Bubbles effect */
+            background-color: #333;  /* Dark bubble background */
+            transition: background-color 0.3s ease;
         }
 
         .cta a:hover {
-            text-decoration: underline;
+            background-color: #555;  /* Lighter bubble on hover */
         }
 
         footer {
             font-size: 1em;
             text-align: center;
-            color: #8b572a;  /* Less important color */
+            color: #fff;  /* White text for footer */
             margin-top: 50px;
             padding-bottom: 20px;
-        }
-
-        .banner {
-            font-size: 2em;
-            font-weight: bold;
-            color: #fff;
-            background-color: #3e6240;  /* Banner background with main color */
-            text-align: center;
-            padding: 40px 0;
         }
     </style>
 </head>
 <body>
-    <div class="banner">
-        Welcome to the Official FlowLearner Website!
-    </div>
-    
-    <div class="announcement">
-        The FlowLearner app isn't released yet, but it's coming soon!
-    </div>
-    
     <div class="cta">
         Follow us for updates: 
         <a href="#">Facebook</a> | 
-        <a href="#">Twitter</a> | 
         <a href="#">Instagram</a> | 
         <a href="#">LinkedIn</a> | 
         <a href="#">YouTube</a>
