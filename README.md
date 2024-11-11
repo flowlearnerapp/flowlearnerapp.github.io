@@ -41,22 +41,29 @@
         h1 {
             font-size: 2.5rem;
             margin-bottom: 20px;
-            color: #FFD700; /* Golden color for the title */
+            color: white; /* Changed to white */
         }
 
         .launch-text {
             font-size: 1.4rem;
             margin-bottom: 20px;
-            font-style: italic;
+            font-family: 'Verdana', sans-serif; /* Changed to a more readable font */
+            line-height: 1.6; /* Added line-height for better readability */
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap; /* Allow the social links to wrap on smaller screens */
+            gap: 15px; /* Added gap between social links */
         }
 
         .social-links a {
             color: white;
             text-decoration: none;
-            margin: 0 15px;
             font-size: 1.2rem;
             padding: 10px;
-            border-radius: 30px; /* Set border radius to 30px for social containers */
+            border-radius: 30px;
             background-color: rgba(255, 255, 255, 0.2);
             transition: background-color 0.3s ease;
         }
@@ -76,7 +83,7 @@
         .website-link {
             font-size: 1.4rem;
             margin-top: 20px;
-            color: #3E6240; /* Green color for the website link */
+            color: #3E6240;
             text-decoration: none;
         }
 
@@ -97,7 +104,7 @@
             }
             .social-links a {
                 font-size: 1rem;
-                margin: 0 8px;
+                padding: 8px;
             }
         }
     </style>
