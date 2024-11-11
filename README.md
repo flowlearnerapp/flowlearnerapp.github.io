@@ -129,6 +129,7 @@
                 <a href="https://www.instagram.com/flowlearnerapp/profilecard/?igsh=ZTZuZGxmeDh4NHk5" target="_blank">Instagram</a>
                 <a href="https://youtube.com/@flowlearnerapp?si=Twh5d4r_0XDF2ahq" target="_blank">YouTube</a>
                 <a href="https://www.tiktok.com/@flowlearnerapp?_t=8rHsPTZSn1k&_r=1" target="_blank">TikTok</a>
+                <a href="https://x.com/flowlearnerapp?s=09" target="_blank">X formerly known as Twitter</a>
             </div>
         </div>
     </div>
