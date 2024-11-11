@@ -200,7 +200,9 @@
 
 <h1>Welcome to the Official FlowLearnerApp Website.</h1>
 
-<h1>Our app will be launching soon! Follow us on social media to be one of the first Flowlearners.</h1>
+<h1>Follow us for updates.</h1>
+
+<p>Our app will be launching soon! Follow us on social media to be one of the first Flowlearners</p>
         
         <!-- New social media container -->
         <div class="social-media-container">
@@ -220,13 +222,10 @@
                 </a>
             </div>
         </div>
-        
-        <!-- YouTube link (Colette spot) -->
-        <div class="cta">
-            <p>Check out our YouTube channel:</p>
-            <a href="https://youtube.com/@flowlearnerapp?si=Twh5d4r_0XDF2ahq" target="_blank">YouTube</a>
-        </div>
-    </div>
+
+<a href="https://youtube.com/@flowlearnerapp?si=Twh5d4r_0XDF2ahq" target="_blank">YouTube" target="_blank">
+                    <img src="" alt="TikTok"> 
+                    YouTube
     
     <footer>
         <p>© 2024 FlowLearner. All rights reserved.</p>
