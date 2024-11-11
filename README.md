@@ -117,8 +117,8 @@
         </div>
         
         <div class="box">
-            <h2>🌐 Website</h2>
-            <p>Check out our progress and updates:</p>
+            <h2>⬇️ Website</h2>
+            <p>Get the app:</p>
             <a href="https://flowlearner.com" class="website-link" target="_blank">flowlearner.com</a>
         </div>
 
