@@ -34,13 +34,14 @@
         h1 {
             font-size: 2.5rem;
             margin-bottom: 20px;
-            color: #FFD700; /* Golden color for the title */
+            color: white; /* Change text color to white */
         }
 
         .launch-text {
             font-size: 1.4rem;
             margin-bottom: 20px;
-            font-style: italic;
+            font-style: normal; /* Normal readable font style */
+            font-weight: normal;
         }
 
         .social-links a {
@@ -76,6 +77,16 @@
 
         .website-link:hover {
             text-decoration: underline;
+        }
+
+        .copyright {
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.6);
+            margin-top: 20px;
+        }
+
+        .copyright i {
+            color: #FFD700; /* Gold color for the copyright icon */
         }
 
         @media (max-width: 600px) {
@@ -115,3 +126,13 @@
             <a href="https://www.instagram.com/flowlearnerapp/profilecard/?igsh=ZTZuZGxmeDh4NHk5" target="_blank">Instagram</a>
             <a href="https://youtube.com/@flowlearnerapp?si=Twh5d4r_0XDF2ahq" target="_blank">YouTube</a>
             <a href="https://www.tiktok.com/@flowlearnerapp?_t=8rHsPTZSn1k&_r=1" target="_blank">TikTok</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="copyright">
+            <i>©</i> 2024 Flowlearner. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
