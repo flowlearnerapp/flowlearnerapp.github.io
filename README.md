@@ -1,88 +1,49 @@
-/* Global styles */
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-family: Arial, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlowLearner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-a {
-    color: #1e90ff;
-    text-decoration: none;
-}
+    <!-- Full-screen background -->
+    <div class="background">
+        <img src="https://github.com/flowlearnerapp/flowlearnerapp.github.io/blob/f06b264cee5b4a9a3dac696005391db791a6c220/signal-2024-11-11-003122_002.png?raw=true" alt="Background Image" class="background-image">
 
-a:hover {
-    text-decoration: underline;
-}
+        <!-- Flexible and transparent content container with curved corners -->
+        <div class="content-container">
+            <h1>Welcome to FlowLearner! 🚀</h1>
+            <p>We're building an innovative learning app designed to enhance your educational experience. While we’re still in the development phase, our goal is to create a platform that makes learning engaging, accessible, and effective.</p>
 
-/* Full-screen background */
-.background {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
+            <p><strong>🌐 Website</strong><br>
+            Check out our progress and updates: <a href="https://flowlearner.com/" target="_blank">flowlearner.com</a></p>
 
-.background-image {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    opacity: 0.8; /* Slight opacity for the background image */
-    position: absolute;
-    top: 0;
-    left: 0;
-}
+            <p><strong>📱 Follow Us</strong><br>
+            Stay connected and be the first to know when we launch! Follow us on social media for updates, tips, and insights:</p>
 
-/* Flexible content container */
-.content-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
-    color: white;
-    padding: 30px;
-    border-radius: 25px; /* Curved corners */
-    max-width: 800px;
-    width: 90%;
-    text-align: center;
-    z-index: 10; /* Ensures the container is on top of the background */
-}
+            <!-- Social Media Links in a Flex container -->
+            <div class="social-links">
+                <div class="social-link-container">
+                    <a href="https://www.instagram.com/flowlearnerapp/profilecard/?igsh=ZTZuZGxmeDh4NHk5" target="_blank">Instagram</a>
+                </div>
+                <div class="social-link-container">
+                    <a href="https://youtube.com/@flowlearnerapp?si=Twh5d4r_0XDF2ahq" target="_blank">YouTube</a>
+                </div>
+                <div class="social-link-container">
+                    <a href="https://www.tiktok.com/@flowlearnerapp?_t=8rHsPTZSn1k&_r=1" target="_blank">TikTok</a>
+                </div>
+            </div>
 
-/* Text styling */
-h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-}
+            <p>Your feedback and support mean the world to us as we aim to create a transformative learning experience. Stay tuned for more updates!</p>
+        </div>
 
-p {
-    font-size: 1.2rem;
-}
+        <!-- Copyright Note -->
+        <footer class="footer">
+            <p>&copy; 2024 FlowLearner. All rights reserved.</p>
+        </footer>
+    </div>
 
-/* Social media flex container */
-.social-links {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin: 20px 0;
-}
-
-.social-link-container {
-    background-color: rgba(255, 255, 255, 0.2); /* Slightly transparent background */
-    padding: 15px 20px;
-    border-radius: 30px;
-}
-
-.social-link-container a {
-    color: white;
-    font-size: 1.2rem;
-}
-
-/* Footer */
-.footer {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    color: white;
-    font-size: 0.8rem;
-}
+</body>
+</html>
