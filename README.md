@@ -62,7 +62,6 @@ h1, h2, p {
     margin-top: 20px;
 }
 
-/* Social media buttons with more rounded corners */
 .social-btn {
     display: inline-block;
     padding: 15px 30px;
@@ -70,7 +69,7 @@ h1, h2, p {
     background-color: rgba(255, 255, 255, 0.7);
     color: #333;
     text-decoration: none;
-    border-radius: 50px; /* More rounded corners */
+    border-radius: 25px; /* Increased border-radius to make buttons rounder */
     font-size: 1.2em;
     transition: background-color 0.3s ease;
 }
