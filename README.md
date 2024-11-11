@@ -8,7 +8,7 @@
         body {
             margin: 0;
             font-family: 'Arial', sans-serif;
-            background: url('https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/f06b264cee5b4a9a3dac696005391db791a6c220/signal-2024-11-11-003122_002.png') no-repeat center center fixed;
+            background: url('https://github.com/flowlearnerapp/flowlearnerapp.github.io/blob/f06b264cee5b4a9a3dac696005391db791a6c220/signal-2024-11-11-003122_002.png?raw=true') no-repeat center center fixed;
             background-size: cover;
             height: 100vh;
             color: white;
@@ -59,8 +59,8 @@
             text-decoration: none;
             margin: 0 15px;
             font-size: 1.2rem;
-            padding: 12px 20px;
-            border-radius: 30px;  /* Increased border-radius */
+            padding: 10px;
+            border-radius: 8px;
             background-color: rgba(255, 255, 255, 0.2);
             transition: background-color 0.3s ease;
         }
