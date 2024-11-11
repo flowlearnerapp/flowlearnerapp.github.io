@@ -19,6 +19,7 @@
             flex-direction: column;
             padding: 20px;
             box-sizing: border-box;
+            overflow-x: hidden; /* Prevent horizontal scroll */
         }
 
         .box {
@@ -49,7 +50,7 @@
             margin: 0 15px;
             font-size: 1.2rem;
             padding: 10px;
-            border-radius: 8px;
+            border-radius: 30px; /* Set border radius to 30px for social containers */
             background-color: rgba(255, 255, 255, 0.2);
             transition: background-color 0.3s ease;
         }
@@ -70,7 +71,7 @@
         .website-link {
             font-size: 1.4rem;
             margin-top: 20px;
-            color: #FFD700;
+            color: #3E6240; /* Green color for the website link */
             text-decoration: none;
         }
 
@@ -98,14 +99,14 @@
 </head>
 <body>
     <div class="box">
-        <h1>Welcome to FlowLearner! 🚀</h1>
+        <h1>Welcome to Flowlana!</h1>
         <p class="launch-text">We're building an innovative learning app designed to enhance your educational experience. While we’re still in the development phase, our goal is to create a platform that makes learning engaging, accessible, and effective.</p>
     </div>
     
     <div class="box">
         <h2>🌐 Website</h2>
         <p>Check out our progress and updates:</p>
-        <a href="https://flowlearner.com/" class="website-link" target="_blank">flowlearner.com</a>
+        <a href="https://flowlana.com" class="website-link" target="_blank">flowlana.com</a>
     </div>
 
     <div class="box">
