@@ -106,7 +106,7 @@
     <div class="box">
         <h2>🌐 Website</h2>
         <p>Check out our progress and updates:</p>
-        <a href="https://flowlana.com" class="website-link" target="_blank">flowlana.com</a>
+        <a href="https://flowlearner.com" class="website-link" target="_blank">flowlana.com</a>
     </div>
 
     <div class="box">
