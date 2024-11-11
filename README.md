@@ -12,16 +12,102 @@
             color: white;
             text-align: center;
             display: flex;
-            justify-content: flex-start; 
-            align-items: flex-start; 
+            justify-content: flex-start; /* Changed to flex-start for top alignment */
+            align-items: flex-start; /* Changed to flex-start for top alignment */
             flex-direction: column;
             padding: 20px;
             box-sizing: border-box;
-            height: auto; 
-            min-height: 100vh; 
-            overflow-x: hidden; 
+            height: auto; /* Allow body to grow in height */
+            min-height: 100vh; /* Ensure the page is at least 100vh tall */
+            overflow-x: hidden; /* Prevent horizontal scroll */
         }
 
+        .content {
+            flex-grow: 1; /* This will allow the content to grow and push footer down */
+            width: 100%;
+            max-width: 700px;
+            box-sizing: border-box;
+        }
+
+        .box {
+            background: rgba(0, 0, 0, 0.5); /* Slight black background for readability */
+            border-radius: 15px;
+            padding: 30px;
+            margin: 20px 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: white; /* Changed to white */
+        }
+
+        .launch-text {
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+            font-family: 'Verdana', sans-serif; /* Changed to a more readable font */
+            line-height: 1.6; /* Added line-height for better readability */
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap; /* Allow the social links to wrap on smaller screens */
+            gap: 15px; /* Added gap between social links */
+        }
+
+        .social-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 10px;
+            border-radius: 30px;
+            background-color: rgba(255, 255, 255, 0.2);
+            transition: background-color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            background-color: rgba(255, 255, 255, 0.4);
+        }
+
+        .footer {
+            width: 100%;
+            text-align: center;
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.7);
+            padding: 10px 0;
+        }
+
+        .website-link {
+            font-size: 1.4rem;
+            margin-top: 20px;
+            color: #3E6240;
+            text-decoration: none;
+        }
+
+        .website-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .box {
+                width: 90%;
+                padding: 20px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            .launch-text {
+                font-size: 1.2rem;
+            }
+            .social-links a {
+                font-size: 1rem;
+                padding: 8px;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="content">
