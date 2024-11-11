@@ -22,23 +22,25 @@
         }
 
         .box {
-            background: transparent; /* Removed the grey background */
+            background: rgba(0, 0, 0, 0.5); /* Slight black background for readability */
             border-radius: 15px;
             padding: 30px;
             margin: 20px 0;
             width: 80%;
-            max-width: 600px;
+            max-width: 700px;
             box-sizing: border-box;
         }
 
         h1 {
             font-size: 2.5rem;
             margin-bottom: 20px;
+            color: #FFD700; /* Golden color for the title */
         }
 
         .launch-text {
             font-size: 1.4rem;
             margin-bottom: 20px;
+            font-style: italic;
         }
 
         .social-links a {
@@ -62,6 +64,18 @@
             width: 100%;
             text-align: center;
             font-size: 1rem;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .website-link {
+            font-size: 1.4rem;
+            margin-top: 20px;
+            color: #FFD700;
+            text-decoration: none;
+        }
+
+        .website-link:hover {
+            text-decoration: underline;
         }
 
         @media (max-width: 600px) {
@@ -84,16 +98,26 @@
 </head>
 <body>
     <div class="box">
-        <h1>Hi Future Flowlearner</h1>
+        <h1>Welcome to FlowLearner! 🚀</h1>
+        <p class="launch-text">We're building an innovative learning app designed to enhance your educational experience. While we’re still in the development phase, our goal is to create a platform that makes learning engaging, accessible, and effective.</p>
     </div>
+    
     <div class="box">
-        <p class="launch-text">Our app will be launching soon. Follow us on social media to be one of the first Flowlearners.</p>
+        <h2>🌐 Website</h2>
+        <p>Check out our progress and updates:</p>
+        <a href="https://flowlearner.com/" class="website-link" target="_blank">flowlearner.com</a>
+    </div>
+
+    <div class="box">
+        <h2>📱 Follow Us</h2>
+        <p>Stay connected and be the first to know when we launch! Follow us on social media for updates, tips, and insights:</p>
         <div class="social-links">
-            <a href="https://www.tiktok.com/@flowlearnerapp?_t=8rHsPTZSn1k&_r=1" target="_blank">TikTok</a>
-            <a href="https://x.com/flowlearnerapp?s=09" target="_blank">X (Twitter)</a>
+            <a href="https://www.instagram.com/flowlearnerapp/profilecard/?igsh=ZTZuZGxmeDh4NHk5" target="_blank">Instagram</a>
             <a href="https://youtube.com/@flowlearnerapp?si=Twh5d4r_0XDF2ahq" target="_blank">YouTube</a>
+            <a href="https://www.tiktok.com/@flowlearnerapp?_t=8rHsPTZSn1k&_r=1" target="_blank">TikTok</a>
         </div>
     </div>
+
     <div class="footer">
         <p>© 2024 Flow Learner, All rights reserved.</p>
     </div>
