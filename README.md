@@ -116,12 +116,10 @@
             <a href="https://youtube.com/@flowlearnerapp?si=Twh5d4r_0XDF2ahq" target="_blank">YouTube</a>
             <a href="https://www.tiktok.com/@flowlearnerapp?_t=8rHsPTZSn1k&_r=1" target="_blank">TikTok</a>
         </div>
+         <div class="footer">
+        <p>© 2024 Flow Learner, All rights reserved.</p>
+    </div>
     </div>
     
 </body>
-
- <div class="footer">
-        <p>© 2024 Flow Learner, All rights reserved.</p>
-    </div>
-
 </html>
