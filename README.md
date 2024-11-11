@@ -8,17 +8,15 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background: url('https://pixabay.com/photos/clouds-sunset-cloudy-storm-7397802/') no-repeat center center fixed;
+            background: url('https://source.unsplash.com/1600x900/?sunset') no-repeat center center fixed;
             background-size: cover;
             height: 100vh;
             color: white;
             text-align: center;
             display: flex;
             flex-direction: column;
-            justify-content: center; /* Center content vertically */
-            align-items: center; /* Center content horizontally */
-            padding: 0 20px; /* Add padding to avoid text touching the sides */
-            box-sizing: border-box;
+            justify-content: flex-start;
+            padding: 20px;
         }
 
         /* Apply a blur effect to the background */
@@ -37,62 +35,39 @@
         .box {
             background: rgba(0, 0, 0, 0.6);
             border-radius: 15px;
-            padding: 30px;
-            margin: 15px 0;
+            padding: 20px;
+            margin: 10px 0;
             width: 80%;
             max-width: 600px;
-            box-sizing: border-box;
-            text-align: center;
         }
 
         h1 {
-            font-size: 2.5rem;
-            margin: 0;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Improve text visibility */
-        }
-
-        .launch-text {
-            font-size: 1.5rem;
-            margin: 10px 0;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Subtle shadow for text readability */
+            font-size: 2rem;
         }
 
         .social-links a {
             color: white;
             text-decoration: none;
-            margin: 0 15px;
-            font-size: 1.2rem;
-            transition: transform 0.3s ease;
-        }
-
-        .social-links a:hover {
-            transform: scale(1.1); /* Slight zoom effect on hover */
+            margin: 0 10px;
         }
 
         .footer {
-            position: fixed;
-            bottom: 20px;
+            position: absolute;
+            bottom: 10px;
             width: 100%;
             text-align: center;
-            font-size: 1rem;
         }
 
-        .footer p {
-            margin: 0;
+        .launch-text {
+            font-size: 1.5rem; /* Increase text size */
         }
 
         @media (max-width: 600px) {
             .box {
                 width: 90%;
             }
-
             .launch-text {
-                font-size: 1.2rem;
-            }
-
-            .social-links a {
-                font-size: 1rem;
-                margin: 0 8px;
+                font-size: 1.2rem; /* Adjust launch text size on smaller screens */
             }
         }
     </style>
