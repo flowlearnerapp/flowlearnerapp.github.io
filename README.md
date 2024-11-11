@@ -12,25 +12,25 @@
             color: white;
             text-align: center;
             display: flex;
-            justify-content: flex-start; /* Changed to flex-start for top alignment */
-            align-items: flex-start; /* Changed to flex-start for top alignment */
+            justify-content: flex-start; 
+            align-items: flex-start; 
             flex-direction: column;
             padding: 20px;
             box-sizing: border-box;
-            height: auto; /* Allow body to grow in height */
-            min-height: 100vh; /* Ensure the page is at least 100vh tall */
-            overflow-x: hidden; /* Prevent horizontal scroll */
+            height: auto; 
+            min-height: 100vh; 
+            overflow-x: hidden; 
         }
 
         .content {
-            flex-grow: 1; /* This will allow the content to grow and push footer down */
+            flex-grow: 1; 
             width: 100%;
             max-width: 700px;
             box-sizing: border-box;
         }
 
         .box {
-            background: rgba(0, 0, 0, 0.5); /* Slight black background for readability */
+            background: rgba(0, 0, 0, 0.5); 
             border-radius: 15px;
             padding: 30px;
             margin: 20px 0;
@@ -41,21 +41,21 @@
         h1 {
             font-size: 2.5rem;
             margin-bottom: 20px;
-            color: white; /* Changed to white */
+            color: white; 
         }
 
         .launch-text {
             font-size: 1.4rem;
             margin-bottom: 20px;
-            font-family: 'Verdana', sans-serif; /* Changed to a more readable font */
-            line-height: 1.6; /* Added line-height for better readability */
+            font-family: 'Verdana', sans-serif; 
+            line-height: 1.6; 
         }
 
         .social-links {
             display: flex;
             justify-content: center;
-            flex-wrap: wrap; /* Allow the social links to wrap on smaller screens */
-            gap: 15px; /* Added gap between social links */
+            flex-wrap: wrap; 
+            gap: 15px; /
         }
 
         .social-links a {
