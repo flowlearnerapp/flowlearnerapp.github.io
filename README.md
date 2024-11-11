@@ -1,93 +1,101 @@
-/* Apply a background image */
-body {
-    background-image: url('https://github.com/flowlearnerapp/flowlearnerapp.github.io/blob/f06b264cee5b4a9a3dac696005391db791a6c220/signal-2024-11-11-003122_002.png?raw=true');
-    background-size: cover;
-    background-position: center;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: white;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowlearner</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: url('https://github.com/flowlearnerapp/flowlearnerapp.github.io/blob/f06b264cee5b4a9a3dac696005391db791a6c220/signal-2024-11-11-003122_002.png?raw=true') no-repeat center center fixed;
+            background-size: cover;
+            height: 100vh;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+            box-sizing: border-box;
+        }
 
-h1, h2, p {
-    margin: 0;
-    padding: 20px;
-    text-align: center;
-}
+        .box {
+            background: transparent; /* Removed the grey background */
+            border-radius: 15px;
+            padding: 30px;
+            margin: 20px 0;
+            width: 80%;
+            max-width: 600px;
+            box-sizing: border-box;
+        }
 
-/* Top welcome box */
-.top-box {
-    background: rgba(0, 0, 0, 0.5);
-    padding: 15px;
-    border-radius: 8px;
-    margin-top: 20px;
-}
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
 
-.top-box h1 {
-    font-size: 2em;
-}
+        .launch-text {
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+        }
 
-/* Main content box */
-.main-content {
-    background: rgba(0, 0, 0, 0.5);
-    padding: 40px;
-    border-radius: 15px;
-    margin-top: 40px;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
+        .social-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+            padding: 10px;
+            border-radius: 8px;
+            background-color: rgba(255, 255, 255, 0.2);
+            transition: background-color 0.3s ease;
+        }
 
-.main-content h2 {
-    font-size: 3em;
-}
+        .social-links a:hover {
+            background-color: rgba(255, 255, 255, 0.4);
+        }
 
-/* Launch announcement box */
-.launch-box {
-    background: rgba(0, 0, 0, 0.5);
-    padding: 30px;
-    border-radius: 12px;
-    margin-top: 40px;
-    text-align: center;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
+        .footer {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+            font-size: 1rem;
+        }
 
-.launch-box p {
-    font-size: 1.5em;
-}
-
-.social-links {
-    margin-top: 20px;
-}
-
-.social-btn {
-    display: inline-block;
-    padding: 15px 30px;
-    margin: 10px;
-    background-color: rgba(255, 255, 255, 0.7);
-    color: #333;
-    text-decoration: none;
-    border-radius: 8px;
-    font-size: 1.2em;
-    transition: background-color 0.3s ease;
-}
-
-.social-btn:hover {
-    background-color: rgba(255, 255, 255, 0.9);
-}
-
-/* Footer */
-footer {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    text-align: center;
-    font-size: 1em;
-    color: white;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
+        @media (max-width: 600px) {
+            .box {
+                width: 90%;
+                padding: 20px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            .launch-text {
+                font-size: 1.2rem;
+            }
+            .social-links a {
+                font-size: 1rem;
+                margin: 0 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Hi Future Flowlearner</h1>
+    </div>
+    <div class="box">
+        <p class="launch-text">Our app will be launching soon. Follow us on social media to be one of the first Flowlearners.</p>
+        <div class="social-links">
+            <a href="https://www.tiktok.com/@flowlearnerapp?_t=8rHsPTZSn1k&_r=1" target="_blank">TikTok</a>
+            <a href="https://x.com/flowlearnerapp?s=09" target="_blank">X (Twitter)</a>
+            <a href="https://youtube.com/@flowlearnerapp?si=Twh5d4r_0XDF2ahq" target="_blank">YouTube</a>
+        </div>
+    </div>
+    <div class="footer">
+        <p>© 2024 Flow Learner, All rights reserved.</p>
+    </div>
+</body>
+</html>
