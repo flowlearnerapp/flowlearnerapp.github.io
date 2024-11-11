@@ -7,16 +7,18 @@
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
-            background: url('https://source.unsplash.com/1600x900/?sunset') no-repeat center center fixed;
+            font-family: 'Arial', sans-serif;
+            background: url('https://github.com/flowlearnerapp/flowlearnerapp.github.io/blob/f06b264cee5b4a9a3dac696005391db791a6c220/signal-2024-11-11-003122_002.png?raw=true') no-repeat center center fixed;
             background-size: cover;
             height: 100vh;
             color: white;
             text-align: center;
             display: flex;
+            justify-content: center;
+            align-items: center;
             flex-direction: column;
-            justify-content: flex-start;
             padding: 20px;
+            box-sizing: border-box;
         }
 
         /* Apply a blur effect to the background */
@@ -35,20 +37,36 @@
         .box {
             background: rgba(0, 0, 0, 0.6);
             border-radius: 15px;
-            padding: 20px;
-            margin: 10px 0;
+            padding: 30px;
+            margin: 20px 0;
             width: 80%;
             max-width: 600px;
+            box-sizing: border-box;
         }
 
         h1 {
-            font-size: 2rem;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .launch-text {
+            font-size: 1.4rem;
+            margin-bottom: 20px;
         }
 
         .social-links a {
             color: white;
             text-decoration: none;
-            margin: 0 10px;
+            margin: 0 15px;
+            font-size: 1.2rem;
+            padding: 10px;
+            border-radius: 8px;
+            background-color: rgba(255, 255, 255, 0.2);
+            transition: background-color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            background-color: rgba(255, 255, 255, 0.4);
         }
 
         .footer {
@@ -56,18 +74,23 @@
             bottom: 10px;
             width: 100%;
             text-align: center;
-        }
-
-        .launch-text {
-            font-size: 1.5rem; /* Increase text size */
+            font-size: 1rem;
         }
 
         @media (max-width: 600px) {
             .box {
                 width: 90%;
+                padding: 20px;
+            }
+            h1 {
+                font-size: 2rem;
             }
             .launch-text {
-                font-size: 1.2rem; /* Adjust launch text size on smaller screens */
+                font-size: 1.2rem;
+            }
+            .social-links a {
+                font-size: 1rem;
+                margin: 0 8px;
             }
         }
     </style>
