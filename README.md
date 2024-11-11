@@ -118,9 +118,11 @@
             <a href="https://www.tiktok.com/@flowlearnerapp?_t=8rHsPTZSn1k&_r=1" target="_blank">TikTok</a>
         </div>
     </div>
+    
+</body>
 
-    <div class="footer">
+ <div class="footer">
         <p>© 2024 Flow Learner, All rights reserved.</p>
     </div>
-</body>
+
 </html>
