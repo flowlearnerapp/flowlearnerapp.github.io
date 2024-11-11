@@ -118,7 +118,7 @@
         
         <div class="box">
             <h2>⬇️ Get the app</h2>
-            <p>Download options coming to the App Store and Google Play soon:</p>
+            <p>Download options coming to the App Store and Google Play soon</p>
             <a href="https://flowlearner.com" class="website-link" target="_blank">flowlearner.com</a>
         </div>
 
