@@ -69,7 +69,7 @@ h1, h2, p {
     background-color: rgba(255, 255, 255, 0.7);
     color: #333;
     text-decoration: none;
-    border-radius: 25px; /* Increased border-radius to make buttons rounder */
+    border-radius: 8px;
     font-size: 1.2em;
     transition: background-color 0.3s ease;
 }
