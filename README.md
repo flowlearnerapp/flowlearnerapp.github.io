@@ -131,7 +131,7 @@
 
     <div class="footer">
         <div class="copyright">
-            <i>©</i> 2024 Flowlearner. All rights reserved.
+            © 2024 Flowlearner. All rights reserved.
         </div>
     </div>
 </body>
