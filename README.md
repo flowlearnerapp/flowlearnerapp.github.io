@@ -7,54 +7,38 @@
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
-            background: url('https://pixabay.com/photos/clouds-sunset-cloudy-storm-7397802/') no-repeat center center fixed;
+            font-family: 'Arial', sans-serif;
+            background: url('https://github.com/flowlearnerapp/flowlearnerapp.github.io/blob/f06b264cee5b4a9a3dac696005391db791a6c220/signal-2024-11-11-003122_002.png?raw=true') no-repeat center center fixed;
             background-size: cover;
             height: 100vh;
             color: white;
             text-align: center;
             display: flex;
+            justify-content: center;
+            align-items: center;
             flex-direction: column;
-            justify-content: center; /* Center content vertically */
-            align-items: center; /* Center content horizontally */
-            padding: 0 20px; /* Add padding to avoid text touching the sides */
+            padding: 20px;
             box-sizing: border-box;
-        }
-
-        /* Apply a blur effect to the background */
-        ::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: inherit;
-            filter: blur(8px);
-            z-index: -1;
         }
 
         .box {
-            background: rgba(0, 0, 0, 0.6);
+            background: transparent; /* Removed the grey background */
             border-radius: 15px;
             padding: 30px;
-            margin: 15px 0;
+            margin: 20px 0;
             width: 80%;
             max-width: 600px;
             box-sizing: border-box;
-            text-align: center;
         }
 
         h1 {
             font-size: 2.5rem;
-            margin: 0;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Improve text visibility */
+            margin-bottom: 20px;
         }
 
         .launch-text {
-            font-size: 1.5rem;
-            margin: 10px 0;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Subtle shadow for text readability */
+            font-size: 1.4rem;
+            margin-bottom: 20px;
         }
 
         .social-links a {
@@ -62,34 +46,35 @@
             text-decoration: none;
             margin: 0 15px;
             font-size: 1.2rem;
-            transition: transform 0.3s ease;
+            padding: 10px;
+            border-radius: 8px;
+            background-color: rgba(255, 255, 255, 0.2);
+            transition: background-color 0.3s ease;
         }
 
         .social-links a:hover {
-            transform: scale(1.1); /* Slight zoom effect on hover */
+            background-color: rgba(255, 255, 255, 0.4);
         }
 
         .footer {
-            position: fixed;
-            bottom: 20px;
+            position: absolute;
+            bottom: 10px;
             width: 100%;
             text-align: center;
             font-size: 1rem;
         }
 
-        .footer p {
-            margin: 0;
-        }
-
         @media (max-width: 600px) {
             .box {
                 width: 90%;
+                padding: 20px;
             }
-
+            h1 {
+                font-size: 2rem;
+            }
             .launch-text {
                 font-size: 1.2rem;
             }
-
             .social-links a {
                 font-size: 1rem;
                 margin: 0 8px;
