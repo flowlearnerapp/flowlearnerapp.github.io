@@ -7,7 +7,7 @@
         body {
             margin: 0;
             font-family: 'Arial', sans-serif;
-            background: url('![https://github.com/flowlearnerapp/flowlearnerapp.github.io/blob/main/Flowlearnerapp%20background.jpg?raw=true')
+            background: url('[https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearnerapp%20background.jpg')
             background-size: cover;
             color: white;
             text-align: center;
