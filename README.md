@@ -1,78 +1,151 @@
-<!DOCTYPE html>
-<html lang="en">
+DONE           <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Design</title>
+    <title>Flowlearner</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: black url('https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearnerapp%20background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Corrected: Centers content horizontally */
+    align-items: center; /* Corrected: Centers content vertically */
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100vh; /* Ensure full viewport height */
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+        .content {
+            flex-grow: 1; 
+            width: 100%;
+            max-width: 700px;
+            box-sizing: border-box;
         }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
+
+        .box {
+            background: rgba(0, 0, 0, 0.5); 
+            border-radius: 15px;
+            padding: 30px;
+            margin: 20px 0;
+            width: 100%;
+            box-sizing: border-box;
         }
-        header {
-            background: #333;
-            color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #77aaff 3px solid;
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: white; 
         }
-        header a {
-            color: #fff;
+
+        .launch-text {
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+            font-family: 'Verdana', sans-serif; 
+            line-height: 1.6; 
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap; 
+            gap: 15px; /
+        }
+
+        .social-links a {
+            color: white;
             text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
+            font-size: 1.2rem;
+            padding: 10px;
+            border-radius: 30px;
+            background-color: rgba(255, 255, 255, 0.2);
+            transition: background-color 0.3s ease;
         }
-        header ul {
-            padding: 0;
-            list-style: none;
+
+        .social-links a:hover {
+            background-color: rgba(255, 255, 255, 0.4);
         }
-        header li {
-            float: left;
-            display: inline;
-            padding: 0 20px 0 20px;
-        }
-        .showcase {
-            min-height: 400px;
-            background: url('https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearnerapp%20background.jpg') no-repeat center center/cover;
+
+        .footer {
+            width: 100%;
             text-align: center;
-            color: #fff;
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.7);
+            padding: 10px 0;
         }
-        .showcase h1 {
-            margin-top: 100px;
-            font-size: 55px;
-            margin-bottom: 10px;
+
+        .website-link {
+            font-size: 1.4rem;
+            margin-top: 20px;
+            color: #3E6240;
+            text-decoration: none;
         }
-        .showcase p {
-            font-size: 20px;
+
+        .website-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .box {
+                width: 90%;
+                padding: 20px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            .launch-text {
+                font-size: 1.2rem;
+            }
+            .social-links a {
+                font-size: 1rem;
+                padding: 8px;
+            }
         }
     </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Website</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
+    <div class="content">
+        <div class="box">
+            <h1>Welcome to flowlearner!</h1>
+            <p class="launch-text">We're building an innovative learning app designed to enhance your educational experience. While we’re still in the development phase, our goal is to create a platform that makes learning engaging, accessible, and effective.</p>
         </div>
-    </header>
-    <section class="showcase">
-        <div class="container">
-            <h1>Welcome to Our Website</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque leo nec urna.</p>
+        
+        <div class="box">
+            <h2>⬇️ Get the app</h2>
+            <p>Download options coming to the App Store and Google Play soon</p>
+            <a href="https://flowlearner.com" class="website-link" target="_blank">flowlearner.com</a>
         </div>
-    </section>
+
+        <div class="box">
+            <h2>📱 Follow Us</h2>
+            <p>Stay connected and be the first to know when we launch! Follow us on social media for updates, tips, and insights:</p>
+            <div class="social-links">
+<a href="https://www.instagram.com/flowlearnerapp/profilecard/?igsh=ZTZuZGxmeDh4NHk5" target="_blank">Instagram</a>
+<a href="https://www.tiktok.com/@flowlearnerapp?_t=8rYAgm2WqqO&_r=1" target="_blank">TikTok</a>
+<a href="https://youtube.com/@flowlearnerapp?si=Twh5d4r_0XDF2ahq" target="_blank">YouTube</a>
+<a href="https://www.reddit.com/u/Flowlearnerapp/s/vkHmCzbioT" target="_blank">Reddit</a>
+<a href="https://mastodon.social/@flowlearnerapp" target="_blank">Mastodon</a>
+<a href="https://bsky.app/profile/flowlearnerapp.bsky.social" target="_blank">Bluesky</a>
+<a href="https://www.clubhouse.com/@flowlearnerapp?utm_medium=ch_profile&utm_campaign=7YqXPZWcFT5oLos-ZzaV-g-1517986&chs=2d3SQbbE0R%3AUhvTZ6JFOty0GCIrefX5RExO2QyWONEFKy5Q82a99BM" target="_blank">Clubhouse</a>
+<a href="https://m.twitch.tv/flowlearner/home?tt_content=channel&tt_medium=mobile_web_share" target="_blank">Twitch</a>
+<a href="https://www.quora.com/profile/FlowLearner?ch=10&oid=2851138589&share=f626adf8&srid=3AGvwK&target_type=user" target="_blank">Quora</a>
+<a href="https://pin.it/21RAjRLOs" target="_blank">Pinterest</a>
+<a href="https://x.com/flowlearnerapp?s=09" target="_blank">X (formerly Twitter)</a>
+<a href="https://www.threads.net/@flowlearnerapp" target="_blank">Threads</a>
+<a href="https://discord.gg/FeZsY43V" target="_blank">Discord</a>
+<a href="https://medium.com/@flowlearnerapp" target="_blank">Medium</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2024 Flowlearner, All rights reserved.</p>
+    </div>
 </body>
 </html>
