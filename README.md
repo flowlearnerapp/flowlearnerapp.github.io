@@ -40,7 +40,7 @@
         }
         .showcase {
             min-height: 400px;
-            background: url('image.jpg') no-repeat 0 -400px;
+            background: url('https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearnerapp%20background.jpg') no-repeat center center/cover;
             text-align: center;
             color: #fff;
         }
