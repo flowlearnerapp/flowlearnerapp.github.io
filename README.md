@@ -4,23 +4,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Flowlearner</title>
 <style>
-    body {
-        margin: 0;
-        font-family: 'Arial', sans-serif;
-        background: black url('https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearnerapp%20background.jpg') no-repeat center center fixed;
-        background-size: cover;
-        color: white;
-        text-align: center;
-        display: flex;
-        justify-content: flex-center;
-        align-items: flex-center;
-        flex-direction: column;
-        padding: 20px;
-        box-sizing: border-box;
-        height: auto;
-        min-height: 100vh;
-        overflow-x: hidden;
-
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: black url('https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearnerapp%20background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100vh;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
         .content {
             flex-grow: 1; 
             width: 100%;
