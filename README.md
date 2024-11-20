@@ -33,7 +33,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-image: url('https://via.placeholder.com/1920x1080'); /* Change URL to your image */
+            background-image: url('https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearnerapp%20background.jpg'); /*
             background-size: cover;
             background-position: center;
             z-index: -1;
