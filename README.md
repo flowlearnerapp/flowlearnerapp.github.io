@@ -12,8 +12,8 @@
         color: white;
         text-align: center;
         display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
+        justify-content: flex-center;
+        align-items: flex-center;
         flex-direction: column;
         padding: 20px;
         box-sizing: border-box;
