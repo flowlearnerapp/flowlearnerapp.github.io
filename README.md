@@ -1,14 +1,14 @@
-<html lang="en">
+DONE           <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flowlearner</title>
-    <a href="https://flowlearner.com" class="website-link" target="_blank">flowlearner.com</a>
     <style>
         body {
             margin: 0;
             font-family: 'Arial', sans-serif;
-            background-size: cover; url('![https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearnerapp%20background.jpg')
+            background: url('![https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/02644dd7192ff759189d16850c88251cef889468/Flowlearnerapp%20background.jpg')
+            background-size: cover;
             color: white;
             text-align: center;
             display: flex;
@@ -119,6 +119,7 @@
         <div class="box">
             <h2>⬇️ Get the app</h2>
             <p>Download options coming to the App Store and Google Play soon</p>
+            <a href="https://flowlearner.com" class="website-link" target="_blank">flowlearner.com</a>
         </div>
 
         <div class="box">
@@ -142,6 +143,7 @@
             </div>
         </div>
     </div>
+
     <div class="footer">
         <p>© 2024 Flowlearner, All rights reserved.</p>
     </div>
