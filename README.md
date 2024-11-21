@@ -132,12 +132,12 @@ Join the Flowlearner community and make every day a learning opportunity. With F
         
         <div class="box">
             <h2>🚀 Get the app</h2>
-            <p class="launch-text">We're building an innovative learning app designed to enhance your educational experience. While we’re still in the development phase, our goal is to create a platform that makes learning engaging, accessible, and effective.</p>
+            <p class="launch-text">The Flowlearner app isn’t available yet, but it’s coming soon! You’ll be able to challenge your friends, learn together, and turn every moment into an opportunity for growth. Be the first to experience interactive, fun learning like never before!</p>
         </div>
 
         <div class="box">
             <h2>📱 Follow Us</h2>
-            <p class="launch-text">Stay connected and be the first to know when we launch! Follow us on social media for updates, tips, and insights.</p>
+            <p class="launch-text">Follow us on social media to get exclusive updates on the Flowlearner app, sneak peeks at new features, and behind-the-scenes content. Be part of the journey from day one and get the latest news as we build something amazing!</p>
             <div class="social-links">
 <a href="https://www.instagram.com/flowlearnerapp/profilecard/?igsh=ZTZuZGxmeDh4NHk5" target="_blank">Instagram</a>
 <a href="https://www.tiktok.com/@flowlearnerapp?_t=8rYAgm2WqqO&_r=1" target="_blank">TikTok</a>
