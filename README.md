@@ -121,7 +121,7 @@ body {
         </div>
         
         <div class="box">
-            <h2>⬇️ Get the app</h2>
+            <h2>🚀 Get the app</h2>
             <p class="launch-text">We're building an innovative learning app designed to enhance your educational experience. While we’re still in the development phase, our goal is to create a platform that makes learning engaging, accessible, and effective.</p>
         </div>
 
