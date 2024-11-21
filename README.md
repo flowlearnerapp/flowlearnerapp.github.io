@@ -117,7 +117,15 @@ body {
     <div class="content">
         <div class="box">
             <h1>Hi Flowlearner!</h1>
-            <p class="launch-text">We're building an innovative learning app designed to enhance your educational experience. While we’re still in the development phase, our goal is to create a platform that makes learning engaging, accessible, and effective.</p>
+            <p class="launch-text">Unlock Your Inner Flowlearner!
+
+If you love learning, you’re already a Flowlearner. Whether you’re looking to challenge your mind, improve your skills, or connect with friends over shared knowledge, the Flowlearner app is the best way to make learning a part of your everyday life.
+
+With Flowlearner, every moment—whether you're on the bus, waiting in line, or winding down before bed—becomes an opportunity to learn something new. Enjoy short, fun, and interactive educational games that help you level up your skills while you learn on the go. From brain-boosting exercises to exploring new topics, Flowlearner turns learning into a dynamic, social experience.
+
+By using the Flowlearner app, you’ll be able to track your progress, challenge your friends, and engage in gamified learning that makes education both enjoyable and social. Learning isn’t just about reading or memorizing—it’s about having fun, discovering new things, and growing alongside others. That’s what being a Flowlearner is all about.
+
+Join the Flowlearner community and make every day a learning opportunity. With Flowlearner, you’ll find yourself constantly discovering, evolving, and having fun along the way.</p>
         </div>
         
         <div class="box">
