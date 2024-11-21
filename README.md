@@ -137,9 +137,8 @@ body {
 <a href="https://www.threads.net/@flowlearnerapp" target="_blank">Threads</a>
 <a href="https://discord.gg/FeZsY43V" target="_blank">Discord</a>
 <a href="https://medium.com/@flowlearnerapp" target="_blank">Medium</a>
-            </div>
-            
-          </div>
+                     </div>
+                </div>
     
 <body>
     <div class="footer">
