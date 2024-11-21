@@ -31,8 +31,8 @@ body {
 
 .box {
     background: rgba(0, 0, 0, 0.5); 
-    border-radius: 10px;
-    padding: 90px 30px 30px 90px;
+    border-radius: 30px;
+    padding: 30px 30px 30px 30px;
     margin: 20px 0;
     width: 100%;
     box-sizing: border-box;
@@ -82,7 +82,7 @@ body {
 
         .website-link {
             font-size: 1.4rem;
-            margin-top: 20px;
+            margin-top: 90px;
             color: #3E6240;
             text-decoration: none;
         }
