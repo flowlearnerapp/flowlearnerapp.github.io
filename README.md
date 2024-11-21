@@ -153,11 +153,19 @@ body {
     </div>
 
 <script>
+    let lastOpenedTime = 0;  // To store the last time the URL was opened
+    const interval = 2000;    // Minimum interval in milliseconds (2 seconds)
+
     window.addEventListener('scroll', function() {
         // Check if the user has reached the bottom of the page
         if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-            // Open Instagram URL
-            window.open('https://www.instagram.com/flowlearnerapp/profilecard/?igsh=ZTZuZGxmeDh4NHk5', '_blank');
+            const currentTime = new Date().getTime();
+
+            // Only open the Instagram URL if at least 2 seconds have passed
+            if (currentTime - lastOpenedTime >= interval) {
+                lastOpenedTime = currentTime;  // Update the last opened time
+                window.open('https://www.instagram.com/flowlearnerapp/profilecard/?igsh=ZTZuZGxmeDh4NHk5', '_blank');
+            }
         }
     });
 </script>
