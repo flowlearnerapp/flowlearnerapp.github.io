@@ -145,7 +145,8 @@ body {
 <a href="https://discord.gg/FeZsY43V" target="_blank">Discord</a>
 <a href="https://medium.com/@flowlearnerapp" target="_blank">Medium</a>
             </div>
-
+    </div>
+    
     </div>
     <div class="footer">
         <p>© 2024 Flowlearner, All rights reserved.</p>
