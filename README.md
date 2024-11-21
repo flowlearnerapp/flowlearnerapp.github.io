@@ -139,10 +139,10 @@ body {
 <a href="https://m.twitch.tv/flowlearner/home?tt_content=channel&tt_medium=mobile_web_share" target="_blank">Twitch</a>
 <a href="https://www.quora.com/profile/FlowLearner?ch=10&oid=2851138589&share=f626adf8&srid=3AGvwK&target_type=user" target="_blank">Quora</a>
 <a href="https://pin.it/21RAjRLOs" target="_blank">Pinterest</a>
-<a href="https://www.threads.net/@flowlearnerapp" target="_blank">Threads</a>
 <a href="https://discord.gg/FeZsY43V" target="_blank">Discord</a>
 <a href="https://medium.com/@flowlearnerapp" target="_blank">Medium</a>
 <a href="https://x.com/flowlearnerapp?s=09" target="_blank">X (formerly Twitter)</a>
+<a href="https://www.threads.net/@flowlearnerapp" target="_blank">Threads</a>
             </div>
     </div>
     
