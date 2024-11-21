@@ -46,7 +46,7 @@ body {
 
         h1 {
             font-size: 2.5rem;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             color: white; 
         }
 
@@ -151,6 +151,16 @@ body {
     <div class="footer">
         <p>© 2024 Flowlearner, All rights reserved.</p>
     </div>
+
+<script>
+    window.addEventListener('scroll', function() {
+        // Check if the user has reached the bottom of the page
+        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+            // Open Instagram URL
+            window.open('https://www.instagram.com/flowlearnerapp/profilecard/?igsh=ZTZuZGxmeDh4NHk5', '_blank');
+        }
+    });
+</script>
     
 </body>
 </html>
