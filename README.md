@@ -31,7 +31,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 100vh; /* Ensure full viewport height */
-    padding: 10px;
+    padding: 30px;
     padding-bottom: 90px; /* Add padding at the bottom */
 }
 
