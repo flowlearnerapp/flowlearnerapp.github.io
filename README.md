@@ -152,31 +152,5 @@ body {
         <p>© 2024 Flowlearner, All rights reserved.</p>
     </div>
     
-<script>
-    // Set default values when the page is loaded
-    let lastScrollTime = 0;  // Timestamp to track the last time Instagram was opened
-
-    // Reset the values whenever the page is loaded
-    window.onload = function() {
-        lastScrollTime = 0;
-    };
-
-    window.addEventListener('scroll', function() {
-        // Check if the user has reached the bottom of the page
-        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-            const currentTime = new Date().getTime();
-
-            // Check if 2 seconds have passed since the last Instagram open
-            if (currentTime - lastScrollTime >= 2000) {
-                // Update last scroll time
-                lastScrollTime = currentTime;
-
-                // Open Instagram URL
-                window.open('https://www.instagram.com/flowlearnerapp/profilecard/?igsh=ZTZuZGxmeDh4NHk5', '_blank');
-            }
-        }
-    });
-</script>
-    
 </body>
 </html>
