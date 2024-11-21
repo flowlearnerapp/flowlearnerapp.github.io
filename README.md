@@ -12,22 +12,27 @@ body {
     color: white;
     text-align: center;
     display: flex;
-    justify-content: center; /* Corrected: Centers content horizontally */
-    align-items: center; /* Corrected: Centers content vertically */
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     padding: 20px;
     box-sizing: border-box;
-    height: 100vh; /* Ensure full viewport height */
+    height: 100vh;
     min-height: 100vh;
     overflow-x: hidden;
 }
 
-        .content {
-            flex-grow: 1; 
-            width: 100%;
-            max-width: 700px;
-            box-sizing: border-box;
-        }
+.content {
+    flex-grow: 1;
+    width: 100%;
+    max-width: 700px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Add this line */
+    height: 100vh; /* Ensure full viewport height */
+    padding: 20px;
+}
 
 .box {
     background: rgba(0, 0, 0, 0.5); 
