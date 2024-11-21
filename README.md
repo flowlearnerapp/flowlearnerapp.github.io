@@ -160,15 +160,16 @@ Join the Flowlearner community and make every day a learning opportunity. With F
     <div class="footer">
         <p>&copy; 2024 Flowlearner, All rights reserved.</p>
         <p>Contact us:</p>
-        <ul>
-            <li><a href="mailto:legal@flowlearner.com">legal@flowlearner.com</a></li>
-            <li><a href="mailto:bugs@flowlearner.com">bugs@flowlearner.com</a></li>
-            <li><a href="mailto:dev@flowlearner.com">dev@flowlearner.com</a></li>
-            <li><a href="mailto:support@flowlearner.com">support@flowlearner.com</a></li>
-            <li><a href="mailto:marketing@flowlearner.com">marketing@flowlearner.com</a></li>
-            <li><a href="mailto:premium@flowlearner.com">premium@flowlearner.com</a></li>
-            <li><a href="mailto:security@flowlearner.com">security@flowlearner.com</a></li>
-        </ul>
+        <div class="email-container">
+            <a href="mailto:legal@flowlearner.com">legal@flowlearner.com</a>
+            <a href="mailto:bugs@flowlearner.com">bugs@flowlearner.com</a>
+            <a href="mailto:dev@flowlearner.com">dev@flowlearner.com</a>
+            <a href="mailto:support@flowlearner.com">support@flowlearner.com</a>
+            <a href="mailto:marketing@flowlearner.com">marketing@flowlearner.com</a>
+            <a href="mailto:premium@flowlearner.com">premium@flowlearner.com</a>
+            <a href="mailto:security@flowlearner.com">security@flowlearner.com</a>
+        </div>
     </div>
+</body>
     
 </body>
