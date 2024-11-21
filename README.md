@@ -116,7 +116,7 @@ body {
 <body>
     <div class="content">
         <div class="box">
-            <h1>Welcome to flowlearner!</h1>
+            <h1>Hi flowlearner!</h1>
             <p class="launch-text">We're building an innovative learning app designed to enhance your educational experience. While we’re still in the development phase, our goal is to create a platform that makes learning engaging, accessible, and effective.</p>
         </div>
         
