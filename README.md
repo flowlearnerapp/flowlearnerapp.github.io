@@ -151,9 +151,15 @@ body {
     <div class="footer">
         <p>© 2024 Flowlearner, All rights reserved.</p>
     </div>
-
+    
 <script>
+    // Set default values when the page is loaded
     let lastScrollTime = 0;  // Timestamp to track the last time Instagram was opened
+
+    // Reset the values whenever the page is loaded
+    window.onload = function() {
+        lastScrollTime = 0;
+    };
 
     window.addEventListener('scroll', function() {
         // Check if the user has reached the bottom of the page
