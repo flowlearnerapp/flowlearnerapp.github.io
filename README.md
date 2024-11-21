@@ -31,8 +31,8 @@ body {
 
 .box {
     background: rgba(0, 0, 0, 0.5); 
-    border-radius: 15px;
-    padding: 50px 30px 30px 30px;  /* Increase the top padding to 50px */
+    border-radius: 10px;
+    padding: 90px 30px 30px 90px;
     margin: 20px 0;
     width: 100%;
     box-sizing: border-box;
