@@ -1,5 +1,3 @@
-So close to perfect, never better. 
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
