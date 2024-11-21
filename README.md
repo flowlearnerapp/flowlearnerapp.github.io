@@ -119,16 +119,58 @@ body {
             <h1>Hi Flowlearner!</h1>
             <p class="launch-text">Unlock Your Inner Flowlearner!
 
-If you love learning, you’re already a Flowlearner. Whether you’re looking to challenge your mind, improve your skills, or connect with friends over shared knowledge, the Flowlearner app is the best way to make learning a part of your everyday life.
-
-With Flowlearner, every moment—whether you're on the bus, waiting in line, or winding down before bed—becomes an opportunity to engage your mind and start your day with something that sparks your curiosity. Rather than feeling sluggish or half asleep, why not kick off your morning with a quick, brain-boosting challenge? It’s a great way to wake up and start your day with energy and focus.
-
-Enjoy short, fun, and interactive educational games that help you level up your skills while you learn on the go. From brain-boosting exercises to exploring new topics, Flowlearner turns learning into a dynamic, social experience.
-
-By using the Flowlearner app, you’ll be able to track your progress, challenge your friends, and engage in gamified learning that makes education both enjoyable and social. Learning isn’t just about reading or memorizing—it’s about having fun, discovering new things, and growing alongside others. That’s what being a Flowlearner is all about.
-
-Join the Flowlearner community and make every day a learning opportunity. With Flowlearner, you’ll find yourself constantly discovering, evolving, and having fun along the way.</p>
+If you love learning, you’re already a Flowlearner.</p>
         </div>
+        
+<div class="box">
+    <h2>🌅 Wake Up to Learning</h2>
+    <p class="launch-text">Imagine waking up in the morning and starting your day with a quick, brain-boosting learning exercise. Rather than feeling sluggish, why not energize yourself with a fun challenge that sparks your curiosity and focus?</p>
+</div>
+
+<div class="box">
+    <h2>🚌 Learning on the Go</h2>
+    <p class="launch-text">Whether you're on the bus, waiting in line, or taking a short break, every moment becomes an opportunity to learn. With Flowlearner, you can engage your mind, even without headphones, making every minute count.</p>
+</div>
+
+<div class="box">
+    <h2>💡 Challenge Your Mind</h2>
+    <p class="launch-text">Flowlearner is designed to boost your brain power with short, interactive games that are both fun and educational. Improve your skills and knowledge while enjoying the process!</p>
+</div>
+
+<div class="box">
+    <h2>👯‍♀️ Learn With Friends</h2>
+    <p class="launch-text">Learning is more enjoyable when you can challenge friends and track your progress together. Flowlearner makes it easy to connect with others, turning your learning journey into a dynamic, social experience.</p>
+</div>
+
+<div class="box">
+    <h2>📈 Track Your Growth</h2>
+    <p class="launch-text">With Flowlearner, you can easily track your learning journey. Monitor your progress, set goals, and celebrate your achievements as you level up your skills and knowledge.</p>
+</div>
+
+<div class="box">
+    <h2>🌐 Join the Flowlearner Community</h2>
+    <p class="launch-text">Learning is a lifelong journey, and at Flowlearner, we believe in evolving together. Join a vibrant community of learners who are passionate about growth, exploration, and fun!</p>
+</div>
+
+<div class="box">
+    <h2>🌟 Unlock Your Best Self</h2>
+    <p class="launch-text">Everyone has an ideal version of themselves—someone who is constantly growing, learning, and evolving. Flowlearner helps you take actionable steps towards becoming that person every day, with bite-sized learning opportunities that fit your lifestyle.</p>
+</div>
+
+<div class="box">
+    <h2>🎮 Learning Through Fun Games</h2>
+    <p class="launch-text">Say goodbye to boring textbooks and hello to interactive educational games that make learning feel like play! Flowlearner's gamified approach turns every challenge into an opportunity to grow while having fun.</p>
+</div>
+
+<div class="box">
+    <h2>🧘‍♂️ Relax and Recharge Your Mind</h2>
+    <p class="launch-text">Learning isn’t just about work; it’s about growth and well-being. Flowlearner’s exercises help clear your mind, reduce stress, and improve focus—perfect for winding down or recharging during the day.</p>
+</div>
+
+<div class="box">
+    <h2>🏆 Why Flowlearner?</h2>
+    <p class="launch-text">Flowlearner is more than just an app—it’s a new way of thinking about learning. It’s about seamlessly integrating fun, social, and interactive learning into your daily routine, so you never have to choose between entertainment and self-improvement.</p>
+</div>
         
         <div class="box">
             <h2>🚀 Get the app</h2>
