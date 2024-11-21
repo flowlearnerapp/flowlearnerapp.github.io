@@ -152,5 +152,6 @@ body {
     <div class="footer">
         <p>© 2024 Flowlearner, All rights reserved.</p>
     </div>
+    
 </body>
 </html>
