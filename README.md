@@ -121,7 +121,9 @@ body {
 
 If you love learning, you’re already a Flowlearner. Whether you’re looking to challenge your mind, improve your skills, or connect with friends over shared knowledge, the Flowlearner app is the best way to make learning a part of your everyday life.
 
-With Flowlearner, every moment—whether you're on the bus, waiting in line, or winding down before bed—becomes an opportunity to learn something new. Enjoy short, fun, and interactive educational games that help you level up your skills while you learn on the go. From brain-boosting exercises to exploring new topics, Flowlearner turns learning into a dynamic, social experience.
+With Flowlearner, every moment—whether you're on the bus, waiting in line, or winding down before bed—becomes an opportunity to engage your mind and start your day with something that sparks your curiosity. Rather than feeling sluggish or half asleep, why not kick off your morning with a quick, brain-boosting challenge? It’s a great way to wake up and start your day with energy and focus.
+
+Enjoy short, fun, and interactive educational games that help you level up your skills while you learn on the go. From brain-boosting exercises to exploring new topics, Flowlearner turns learning into a dynamic, social experience.
 
 By using the Flowlearner app, you’ll be able to track your progress, challenge your friends, and engage in gamified learning that makes education both enjoyable and social. Learning isn’t just about reading or memorizing—it’s about having fun, discovering new things, and growing alongside others. That’s what being a Flowlearner is all about.
 
