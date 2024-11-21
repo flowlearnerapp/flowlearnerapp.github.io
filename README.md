@@ -127,7 +127,7 @@ body {
 
         <div class="box">
             <h2>📱 Follow Us</h2>
-            <p Stay connected and be the first to know when we launch! Follow us on social media for updates, tips, and insights </p>
+            <p Stay connected and be the first to know when we launch! Follow us on social media for updates, tips, and insights. p>
             <div class="social-links">
 <a href="https://www.instagram.com/flowlearnerapp/profilecard/?igsh=ZTZuZGxmeDh4NHk5" target="_blank">Instagram</a>
 <a href="https://www.tiktok.com/@flowlearnerapp?_t=8rYAgm2WqqO&_r=1" target="_blank">TikTok</a>
