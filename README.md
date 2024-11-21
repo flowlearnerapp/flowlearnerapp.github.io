@@ -29,9 +29,10 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Add this line */
+    justify-content: space-between;
     height: 100vh; /* Ensure full viewport height */
     padding: 20px;
+    padding-bottom: 20px; /* Add padding at the bottom */
 }
 
 .box {
