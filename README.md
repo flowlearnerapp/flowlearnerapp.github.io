@@ -83,13 +83,6 @@ body {
             color: #3E6240;
             text-decoration: none;
         }
-            .footer {
-            {width: 100%;
-            text-align: center;
-            font-size: 1rem;
-            color: rgba(255, 255, 255, 0.7);
-            padding: 10px 0;
-        }
 
         .website-link:hover {
             text-decoration: underline;
@@ -146,6 +139,14 @@ body {
 <a href="https://medium.com/@flowlearnerapp" target="_blank">Medium</a>
             </div>
     </div>
+
+                .footer {
+            {width: 100%;
+            text-align: center;
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.7);
+            padding: 10px 0;
+        }
     
     </div>
     <div class="footer">
