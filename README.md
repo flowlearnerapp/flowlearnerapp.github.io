@@ -171,11 +171,11 @@ If you love learning, you’re already a Flowlearner.</p>
     <h2>🏆 Why Flowlearner?</h2>
     <p class="launch-text">Flowlearner is more than just an app—it’s a new way of thinking about learning. It’s about seamlessly integrating fun, social, and interactive learning into your daily routine, so you never have to choose between entertainment and self-improvement.</p>
 </div>
-        
-        <div class="box">
-            <h2>🚀 Get the app</h2>
-            <p class="launch-text">The Flowlearner app isn’t available yet, but it’s coming soon! You’ll be able to challenge your friends, learn together, and turn every moment into an opportunity for growth. Be the first to experience interactive, fun learning like never before!</p>
-        </div>
+
+<div class="box">
+    <h2>🚀 Get the App Soon!</h2>
+    <p class="launch-text">The Flowlearner app isn’t available yet, but it’s coming soon! Be among the first to experience learning in a whole new way. Challenge friends, learn together, and discover a more exciting, dynamic path to knowledge!</p>
+</div>
 
         <div class="box">
             <h2>📱 Follow Us</h2>
