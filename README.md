@@ -140,6 +140,8 @@ body {
             </div>
     </div>
     
+    </head>
+<body>
     </div>
     <div class="footer">
         <p>© 2024 Flowlearner, All rights reserved.</p>
