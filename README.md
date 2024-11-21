@@ -38,8 +38,8 @@ body {
 .box {
     background: rgba(0, 0, 0, 0.5); 
     border-radius: 30px;
-    padding: 30px 30px 30px 30px;
-    margin: 20px 0;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0;
     width: 100%;
     box-sizing: border-box;
 }
@@ -77,20 +77,18 @@ body {
         .social-links a:hover {
             background-color: rgba(255, 255, 255, 0.4);
         }
-
-        .footer {
-            width: 100%;
-            text-align: center;
-            font-size: 1rem;
-            color: rgba(255, 255, 255, 0.7);
-            padding: 10px 0;
-        }
-
         .website-link {
             font-size: 1.4rem;
             margin-top: 90px;
             color: #3E6240;
             text-decoration: none;
+        }
+                .footer {
+            width: 100%;
+            text-align: center;
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.7);
+            padding: 10px 0;
         }
 
         .website-link:hover {
