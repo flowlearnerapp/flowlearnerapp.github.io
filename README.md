@@ -15,7 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
     height: 100vh;
     min-height: 100vh;
