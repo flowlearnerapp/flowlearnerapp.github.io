@@ -159,7 +159,6 @@ Join the Flowlearner community and make every day a learning opportunity. With F
 <body>
     <div class="footer">
         <p>&copy; 2024 Flowlearner, All rights reserved.</p>
-        <p>Contact us:</p>
         <div class="email-container">
             <a href="mailto:legal@flowlearner.com">legal@flowlearner.com</a>
             <a href="mailto:bugs@flowlearner.com">bugs@flowlearner.com</a>
@@ -170,6 +169,5 @@ Join the Flowlearner community and make every day a learning opportunity. With F
             <a href="mailto:security@flowlearner.com">security@flowlearner.com</a>
         </div>
     </div>
-</body>
     
 </body>
