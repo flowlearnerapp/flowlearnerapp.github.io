@@ -1,10 +1,10 @@
-DONE           <html lang="en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flowlearner</title>
     <style>
-body {
+        body {
     margin: 0;
     font-family: 'Arial', sans-serif;
     background: black url('https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearnerapp%20background.jpg') no-repeat center center fixed;
@@ -148,4 +148,3 @@ body {
         <p>© 2024 Flowlearner, All rights reserved.</p>
     </div>
 </body>
-</html>
