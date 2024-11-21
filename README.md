@@ -5,22 +5,22 @@
     <title>Flowlearner</title>
     <style>
         body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    background: black url('https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearnerapp%20background.jpg') no-repeat center center fixed;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    display: flex;
-    justify-content: center; /* Corrected: Centers content horizontally */
-    align-items: center; /* Corrected: Centers content vertically */
-    flex-direction: column;
-    padding: 20px;
-    box-sizing: border-box;
-    height: 100vh; /* Ensure full viewport height */
-    min-height: 100vh;
-    overflow-x: hidden;
-}
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: url('![https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearnerapp%20background.jpg')
+            background-size: cover;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: flex-start; 
+            align-items: flex-start; 
+            flex-direction: column;
+            padding: 20px;
+            box-sizing: border-box;
+            height: auto; 
+            min-height: 100vh; 
+            overflow-x: hidden; 
+        }
 
         .content {
             flex-grow: 1; 
@@ -148,3 +148,4 @@
         <p>© 2024 Flowlearner, All rights reserved.</p>
     </div>
 </body>
+</html>
