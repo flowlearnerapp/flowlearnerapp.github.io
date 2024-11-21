@@ -83,8 +83,8 @@ body {
             color: #3E6240;
             text-decoration: none;
         }
-                .footer {
-            width: 100%;
+            .footer {
+            {width: 100%;
             text-align: center;
             font-size: 1rem;
             color: rgba(255, 255, 255, 0.7);
