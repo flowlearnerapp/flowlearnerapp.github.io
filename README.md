@@ -122,7 +122,7 @@ body {
         
         <div class="box">
             <h2>⬇️ Get the app</h2>
-            <p>Download options coming to the App Store and Google Play soon</p>
+            <p class="launch-text">We're building an innovative learning app designed to enhance your educational experience. While we’re still in the development phase, our goal is to create a platform that makes learning engaging, accessible, and effective.</p>
             <a href="https://flowlearner.com" class="website-link" target="_blank">flowlearner.com</a>
         </div>
 
