@@ -60,7 +60,7 @@ body {
 
         .social-links a {
             color: white;
-            text-decoration: none;
+            text-decoration: center;
             font-size: 1.2rem;
             padding: 10px;
             border-radius: 30px;
