@@ -1,3 +1,5 @@
+So close to perfect, never better. 
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -83,6 +85,13 @@ body {
             color: #3E6240;
             text-decoration: none;
         }
+            .footer {
+            {width: 100%;
+            text-align: center;
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.7);
+            padding: 10px 0;
+        }
 
         .website-link:hover {
             text-decoration: underline;
@@ -111,6 +120,13 @@ body {
         <div class="box">
             <h1>Welcome to flowlearner!</h1>
             <p class="launch-text">We're building an innovative learning app designed to enhance your educational experience. While we’re still in the development phase, our goal is to create a platform that makes learning engaging, accessible, and effective.</p>
+        </div>
+        
+        <div class="box">
+            <h2>⬇️ Get the app</h2>
+            <p>Download options coming to the App Store and Google Play soon</p>
+            <a href="https://flowlearner.com" class="website-link" target="_blank">flowlearner.com</a>
+        </div>
 
         <div class="box">
             <h2>📱 Follow Us</h2>
@@ -130,8 +146,8 @@ body {
 <a href="https://www.threads.net/@flowlearnerapp" target="_blank">Threads</a>
 <a href="https://discord.gg/FeZsY43V" target="_blank">Discord</a>
 <a href="https://medium.com/@flowlearnerapp" target="_blank">Medium</a>
-                     </div>
-                </div>
+            </div>
+    </div>
     
 <body>
     <div class="footer">
