@@ -206,6 +206,7 @@ If you love learning, you’re already a Flowlearner.</p>
       <a href="mailto:legal@flowlearner.com" style="color: white">legal@flowlearner.com</a>
       <a href="mailto:security@flowlearner.com" style="color: white">security@flowlearner.com</a>
     </div>
+ </div>
 
  <body>
     <div class="footer">
