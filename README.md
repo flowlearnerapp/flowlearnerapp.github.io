@@ -201,7 +201,7 @@ If you love learning, you’re already a Flowlearner.</p>
  <body>
     <div class="footer">
     <p>&copy; 2024 Flowlearner, All rights reserved.</p>
-    <p>&copy;Contact us at</p>
+    <p>Contact us at</p>
     <div class="email-container">
       <a href="mailto:support@flowlearner.com" style="color: white">support@flowlearner.com</a>
       <a href="mailto:bugs@flowlearner.com" style="color: white">bugs@flowlearner.com</a>
