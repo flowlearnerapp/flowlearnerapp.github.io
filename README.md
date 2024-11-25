@@ -209,8 +209,6 @@ If you love learning, you’re already a Flowlearner.</p>
  </div>
 
  <body>
-  class="footer">
     <p>&copy; 2024 Flowlearner, All rights reserved.</p>
-  </div>
      
 </body>
