@@ -198,17 +198,17 @@ If you love learning, you’re already a Flowlearner.</p>
             </div>
     </div>
     
-<body>
-<div class="footer">
-  <p>&copy; 2024 Flowlearner, All rights reserved.</p>
-  <div class="contact-section"> <h2>Contact Us</h2>  <a href="mailto:legal@flowlearner.com">legal@flowlearner.com</a>
-    <a href="mailto:bugs@flowlearner.com">bugs@flowlearner.com</a>
-    <a href="mailto:dev@flowlearner.com">dev@flowlearner.com</a>
-    <a href="mailto:support@flowlearner.com">support@flowlearner.com</a>
-    <a href="mailto:marketing@flowlearner.com">marketing@flowlearner.com</a>
-    <a href="mailto:premium@flowlearner.com">premium@flowlearner.com</a>
-    <a href="mailto:security@flowlearner.com">security@flowlearner.com</a>
+  <div class="footer">
+    <p>&copy; 2024 Flowlearner, All rights reserved. For inquiries, please contact us at:</p>
+    <div class="email-container">
+      <a href="mailto:legal@flowlearner.com" style="color: white">legal@flowlearner.com</a>
+      <a href="mailto:bugs@flowlearner.com" style="color: white">bugs@flowlearner.com</a>
+      <a href="mailto:dev@flowlearner.com" style="color: white">dev@flowlearner.com</a>
+      <a href="mailto:support@flowlearner.com" style="color: white">support@flowlearner.com</a>
+      <a href="mailto:marketing@flowlearner.com" style="color: white">marketing@flowlearner.com</a>
+      <a href="mailto:premium@flowlearner.com" style="color: white">premium@flowlearner.com</a>
+      <a href="mailto:security@flowlearner.com" style="color: white">security@flowlearner.com</a>
+    </div>
   </div>
-</div>
-    
+  
 </body>
