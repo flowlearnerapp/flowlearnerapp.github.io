@@ -199,13 +199,17 @@ If you love learning, you’re already a Flowlearner.</p>
     </div>
     
  <body>
-    <p>Contact us at</p>
     <div class="email-container">
+        <p>Contact us at</p>
       <a href="mailto:support@flowlearner.com" style="color: white">support@flowlearner.com</a>
       <a href="mailto:bugs@flowlearner.com" style="color: white">bugs@flowlearner.com</a>
       <a href="mailto:legal@flowlearner.com" style="color: white">legal@flowlearner.com</a>
       <a href="mailto:security@flowlearner.com" style="color: white">security@flowlearner.com</a>
-            <div class="footer">
+      <div class="footer">
+    </div>
+  </div>
+
+ <body>
     <p>&copy; 2024 Flowlearner, All rights reserved.</p>
     </div>
   </div>
