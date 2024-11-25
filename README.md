@@ -200,15 +200,16 @@ If you love learning, you’re already a Flowlearner.</p>
     
  <body>
     <div class="footer">
-    <p>&copy; 2024 Flowlearner, All rights reserved. Contact us at</p>
+    <p>&copy; 2024 Flowlearner, All rights reserved.</p>
+    <p>&copy;Contact us at</p>
     <div class="email-container">
+      <a href="mailto:support@flowlearner.com" style="color: white">support@flowlearner.com</a>
       <a href="mailto:bugs@flowlearner.com" style="color: white">bugs@flowlearner.com</a>
       <a href="mailto:legal@flowlearner.com" style="color: white">legal@flowlearner.com</a>
+      <a href="mailto:security@flowlearner.com" style="color: white">security@flowlearner.com</a>
       <a href="mailto:dev@flowlearner.com" style="color: white">dev@flowlearner.com</a>
-      <a href="mailto:support@flowlearner.com" style="color: white">support@flowlearner.com</a>
       <a href="mailto:marketing@flowlearner.com" style="color: white">marketing@flowlearner.com</a>
       <a href="mailto:premium@flowlearner.com" style="color: white">premium@flowlearner.com</a>
-      <a href="mailto:security@flowlearner.com" style="color: white">security@flowlearner.com</a>
     </div>
   </div>
   
