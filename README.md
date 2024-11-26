@@ -200,8 +200,8 @@ If you love learning, you’re already a Flowlearner.</p>
     
 <body>
     <div class="email-container">
-    <div class="contact-email">
         <p>Contact us at:</p>
+        <div class="contact-email">
             <a href="mailto:support@flowlearner.com" style="color: white">support@flowlearner.com</a><br>
             <a href="mailto:bugs@flowlearner.com" style="color: white">bugs@flowlearner.com</a><br>
             <a href="mailto:legal@flowlearner.com" style="color: white">legal@flowlearner.com</a><br>
