@@ -198,18 +198,23 @@ If you love learning, you’re already a Flowlearner.</p>
             </div>
     </div>
     
- <body>
-     <p>Contact us at</p>
-    <div class="email-container">
-      <a href="mailto:support@flowlearner.com" style="color: white">support@flowlearner.com</a>
-      <a href="mailto:bugs@flowlearner.com" style="color: white">bugs@flowlearner.com</a>
-      <a href="mailto:legal@flowlearner.com" style="color: white">legal@flowlearner.com</a>
-      <a href="mailto:security@flowlearner.com" style="color: white">security@flowlearner.com</a>
-    </div>
+<body>
+    <!-- Contact Us and Email Section -->
+    <section>
+        <p>Contact us at</p>
+        <div class="email-container">
+            <a href="mailto:support@flowlearner.com" style="color: white">support@flowlearner.com</a>
+            <a href="mailto:bugs@flowlearner.com" style="color: white">bugs@flowlearner.com</a>
+            <a href="mailto:legal@flowlearner.com" style="color: white">legal@flowlearner.com</a>
+            <a href="mailto:security@flowlearner.com" style="color: white">security@flowlearner.com</a>
+        </div>
+    </section>
 
-     <body>
-    <div class="2024 Flowlearner, All rights reserved">
-     <p>&copy; 2024 Flowlearner, All rights reserved.</p>
-    </div>
-     
+    <!-- Gap Section -->
+    <div style="margin: 20px 0;"></div>
+
+    <!-- Copyright Section -->
+    <section>
+        <p>&copy; 2024 Flowlearner, All rights reserved.</p>
+    </section>
 </body>
