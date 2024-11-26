@@ -209,5 +209,10 @@ If you love learning, you’re already a Flowlearner.</p>
 
  <body>
     <p>&copy; 2024 Flowlearner, All rights reserved.</p>
+
+     <body>
+    <div class="email-container">
+     <p>&copy; 2024 Flowlearner, All rights reserved.</p>
+    </div>
      
 </body>
