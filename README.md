@@ -1,5 +1,7 @@
 <html lang="en">
 <head>
+    <link rel="icon" href="https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearner%20Logo.png" type="image/png">
+    <link rel="icon" href="https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearner%20Logo.png" type="image/png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flowlearner</title>
