@@ -118,10 +118,8 @@ body {
 <body>
     <div class="content">
         <div class="box">
-            <h1>Hi Flowlearner!</h1>
-            <p class="launch-text">Unlock Your Inner Flowlearner!
-
-If you love learning, you’re already a Flowlearner.</p>
+            <h1>@FlowLearners!</h1>
+            <p class="launch-text">Welcome to the future of fun interactive learning, If you love learning, you’re already a Flowlearner</p>
         </div>
         
 <div class="box">
