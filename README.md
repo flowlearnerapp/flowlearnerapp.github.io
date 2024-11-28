@@ -119,7 +119,7 @@ body {
     <div class="content">
         <div class="box">
             <h1>@FlowLearners</h1>
-            <p class="launch-text">Welcome to the future of fun interactive learning</p>
+            <p class="launch-text">Welcome to the future of fun interactive learning!</p>
         </div>
         
 <div class="box">
