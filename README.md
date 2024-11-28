@@ -118,7 +118,7 @@ body {
 <body>
     <div class="content">
         <div class="box">
-            <h1>@FlowLearners!</h1>
+            <h1>@FlowLearners</h1>
             <p class="launch-text">Welcome to the future of fun interactive learning, If you love learning, you’re already a Flowlearner</p>
         </div>
         
