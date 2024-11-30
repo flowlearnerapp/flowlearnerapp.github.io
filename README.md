@@ -34,21 +34,18 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 110vh; /* Ensure full viewport height */
-    padding: 0px; /* 0 test*/
+    padding: 10px; /* Adjust the existing padding */
+    padding-top: 20px; /* Add 10px padding above the container */
     padding-bottom: 60px; /* Add padding at the bottom */
 }
 
 .box {
     background: rgba(0, 0, 0, 0.5); 
-}
-
-.email-container {
-    margin: 10px 0; /* Adds 10px spacing above and below the email container */
-    text-align: center; /* Ensures alignment matches other sections */
-}
-
-.footer {
-    margin: 10px 0; /* Adds 10px spacing above and below the footer (copyright section) */
+    border-radius: 30px;
+    padding: 10px 10px 10px 20px;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
         h1 {
