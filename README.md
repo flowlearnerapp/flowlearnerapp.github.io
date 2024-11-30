@@ -39,16 +39,12 @@ body {
 }
 
 .box {
-    margin: 10px 0; /* Adds 10px spacing above and below each box */
-}
-
-.email-container {
-    margin: 10px 0; /* Adds 10px spacing above and below the email container */
-    text-align: center; /* Ensures alignment matches other sections */
-}
-
-.footer {
-    margin: 10px 0; /* Adds 10px spacing above and below the footer (copyright section) */
+    background: rgba(0, 0, 0, 0.5); 
+    border-radius: 30px;
+    padding: 10px 10px 10px 20px;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
         h1 {
