@@ -8,7 +8,7 @@
     <title>Flowlearner</title>
     <style>
 body {
-    margin: 0;
+    margin: 10px; /* Adds 10px spacing at the top, bottom, left, and right of the page */
     font-family: 'Arial', sans-serif;
     background: black url('https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearnerapp%20background.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -18,9 +18,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 10px;
+    padding: 10px; /* Ensures internal content has spacing from the edges */
     box-sizing: border-box;
-    height: 100vh;
     min-height: 100vh;
     overflow-x: hidden;
 }
@@ -32,17 +31,15 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    gap: 10px; /* Ensures consistent spacing between all child elements, including non-`.box` */
     justify-content: space-between;
-    height: 110vh; /* Ensure full viewport height */
-    padding: 0px; /* 0 test*/
-    padding-bottom: 60px; /* Add padding at the bottom */
+    padding-bottom: 60px;
 }
 
 .box {
     background: rgba(0, 0, 0, 0.5); 
     border-radius: 30px;
     padding: 10px 10px 10px 20px;
-    margin: 10px 0;
     width: 100%;
     box-sizing: border-box;
 }
