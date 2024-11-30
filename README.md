@@ -34,7 +34,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 110vh; /* Ensure full viewport height */
-    padding: 10px; /* Adjust the existing padding */
+    padding: 15px; /* Adjust the existing padding */
     padding-top: 20px; /* Add 10px padding above the container */
     padding-bottom: 60px; /* Add padding at the bottom */
 }
@@ -112,7 +112,7 @@ body {
             }
             .social-links a {
                 font-size: 1rem;
-                padding: 8px;
+                padding: 90px;
             }
         }
     </style>
