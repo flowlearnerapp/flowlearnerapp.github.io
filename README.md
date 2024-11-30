@@ -35,7 +35,7 @@ body {
     justify-content: space-between;
     height: 110vh; /* Ensure full viewport height */
     padding: 10px;
-    padding-bottom: 10px; /* Add padding at the bottom */
+    padding-bottom: 60px; /* Add padding at the bottom */
 }
 
 .box {
