@@ -112,7 +112,7 @@ body {
             }
             .social-links a {
                 font-size: 1rem;
-                padding: 90px;
+                padding: 10px;
             }
         }
     </style>
