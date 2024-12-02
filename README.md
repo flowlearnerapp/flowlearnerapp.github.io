@@ -120,7 +120,7 @@ body {
 <body>
     <div class="content">
         <div class="box">
-            <h1>@FlowLearners</h1>
+            <h1>@Flowlearners</h1>
             <p class="launch-text">Welcome to the future of fun interactive learning!</p>
         </div>
         
