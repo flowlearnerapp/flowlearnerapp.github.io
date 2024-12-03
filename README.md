@@ -1,6 +1,6 @@
 <html lang="en">
 <head>
-    <link rel="icon" href="/flowlearner-Icon-image/favicon.ico" type="image/x-icon
+    <meta rel="icon" href="/flowlearner-Icon-image/favicon.ico" type="image/x-icon
     <meta name="google-site-verification" content="3pB8ZRGimVAO7oWoWzeDjoYClBKOfJvFB1yYH_neb5o" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
