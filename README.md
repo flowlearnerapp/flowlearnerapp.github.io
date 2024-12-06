@@ -184,7 +184,7 @@ body {
 <a href="https://www.instagram.com/flowlearnerapp/profilecard/?igsh=ZTZuZGxmeDh4NHk5" target="_blank">Instagram</a>
 <a href="https://www.tiktok.com/@flowlearnerapp?_t=8rYAgm2WqqO&_r=1" target="_blank">TikTok</a>
 <a href="https://youtube.com/@flowlearnerapp?si=Twh5d4r_0XDF2ahq" target="_blank">YouTube</a>
-<a href="https://bsky.app/profile/flowlearner.com" target="_blank">Bluesky</a>
+<a href="https://bsky.app/profile/flowlearner.app" target="_blank">Bluesky</a>
 <a href="https://www.snapchat.com/add/flowlearnerapp?share_id=K8GyNWLwPUU&locale=en-GB" target="_blank">Snapchat</a>
 <a href="https://www.reddit.com/u/Flowlearnerapp/s/vkHmCzbioT" target="_blank">Reddit</a>
 <a href="https://mastodon.social/@flowlearnerapp" target="_blank">Mastodon</a>
