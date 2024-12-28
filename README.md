@@ -203,6 +203,7 @@ body {
 <body>
     <div class="email-container">
       <a href="mailto:support@flowlearner.app" style="color: white">support@flowlearner.app</a>
+        <a href="mailto:upload.request@flowlearner.app" style="color: white">upload.request@flowlearner.app</a>
       <a href="mailto:bugs@flowlearner.app" style="color: white">bugs@flowlearner.app</a>
       <a href="mailto:legal@flowlearner.app" style="color: white">legal@flowlearner.app</a>
       <a href="mailto:security@flowlearner.app" style="color: white">security@flowlearner.app</a>
