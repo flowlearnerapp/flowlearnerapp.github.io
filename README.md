@@ -3,7 +3,6 @@
     <meta name="google-site-verification" content="3pB8ZRGimVAO7oWoWzeDjoYClBKOfJvFB1yYH_neb5o" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <a rel="me" href="https://mastodon.social/@flowlearnerapp">Mastodon</a>
     <title>Flowlearner</title>
     <style>
 body {
