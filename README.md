@@ -190,7 +190,7 @@ body {
 <a href="https://www.reddit.com/u/Flowlearnerapp/s/vkHmCzbioT" target="_blank">Reddit</a>
 <a href="https://mastodon.social/@flowlearnerapp" target="_blank">Mastodon</a>
 <a href="https://www.clubhouse.com/@flowlearnerapp?utm_medium=ch_profile&utm_campaign=7YqXPZWcFT5oLos-ZzaV-g-1517986&chs=2d3SQbbE0R%3AUhvTZ6JFOty0GCIrefX5RExO2QyWONEFKy5Q82a99BM" target="_blank">Clubhouse</a>
-<a href="https://m.twitch.tv/flowlearner/home?tt_content=channel&tt_medium=mobile_web_share" target="_blank">Twitch</a>
+<a href="https://www.twitch.tv/flowlearnerapp" target="_blank">Twitch</a>
 <a href="https://www.quora.com/profile/FlowLearnerApp?ch=10&oid=2851138589&share=8be3e92c&srid=3AGvwK&target_type=user" target="_blank">Quora</a>
 <a href="https://pin.it/21RAjRLOs" target="_blank">Pinterest</a>
 <a href="https://discord.gg/hguTPEcHZg" target="_blank">Discord</a>
