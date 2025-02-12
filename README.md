@@ -196,7 +196,7 @@ body {
 <a href="https://discord.gg/hguTPEcHZg" target="_blank">Discord</a>
 <a href="https://medium.com/@flowlearnerapp" target="_blank">Medium</a>
 <a href="https://x.com/flowlearnerapp?s=09" target="_blank">X (formerly Twitter)</a>
-<a href="https://t.me/Flowlearnerapp">X (Telegram)</a>
+<a href="https://t.me/Flowlearnerapp">Telegram</a>
 <a href="https://www.threads.net/@flowlearnerapp" target="_blank">Threads</a>
             </div>
     </div>
@@ -204,7 +204,6 @@ body {
 <body>
     <div class="email-container">
       <a href="mailto:support@flowlearner.app" style="color: white">support@flowlearner.app</a>
-        <a href="mailto:upload.request@flowlearner.app" style="color: white">upload.request@flowlearner.app</a>
       <a href="mailto:bugs@flowlearner.app" style="color: white">bugs@flowlearner.app</a>
       <a href="mailto:legal@flowlearner.app" style="color: white">legal@flowlearner.app</a>
       <a href="mailto:security@flowlearner.app" style="color: white">security@flowlearner.app</a>
