@@ -195,7 +195,7 @@ body {
 <a href="https://pin.it/21RAjRLOs" target="_blank">Pinterest</a>
 <a href="https://discord.gg/hguTPEcHZg" target="_blank">Discord</a>
 <a href="https://medium.com/@flowlearnerapp" target="_blank">Medium</a>
-<a href="https://x.com/flowlearnerapp?s=09" target="_blank">X (formerly Twitter)</a>
+<a href="https://x.com/flowlearnerapp?s=09" target="_blank">X</a>
 <a href="https://t.me/Flowlearnerapp">Telegram</a>
 <a href="https://www.threads.net/@flowlearnerapp" target="_blank">Threads</a>
             </div>
