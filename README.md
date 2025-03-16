@@ -130,11 +130,6 @@ h1 {
             <h1>@Flowlearners</h1>
             <p class="launch-text">Welcome to the future of fun interactive learning!</p>
         </div>
-
-Changes made:
-- Increased the `profile-photo` size to `128px` for both width and height.
-- Reduced the `margin-bottom` of the `profile-photo` to `5px` to decrease the padding between the photo and the text.
-- Adjusted the `.box` style in the media query to stick to the sides of the screen with a small gap on mobile devices.
         
 <div class="box">
     <h2>🌅 Wake Up to Learning</h2>
