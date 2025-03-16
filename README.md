@@ -130,6 +130,15 @@ h1 {
             <h1>@Flowlearners</h1>
             <p class="launch-text">Welcome to the future of fun interactive learning!</p>
         </div>
+
+
+                <div class="box">
+            <h2>📱 Follow Us</h2>
+            <p class="launch-text">Follow us on social media to get exclusive updates on the Flowlearner app, sneak peeks at new features, and behind-the-scenes content. Be part of the journey from day one and get the latest news as we build something amazing!</p>
+            <div class="social-links">
+<a href="Download options coming soon" target="_blank">Download options coming soon</a>
+            </div>
+    </div>
         
 <div class="box">
     <h2>🌅 Wake Up to Learning</h2>
