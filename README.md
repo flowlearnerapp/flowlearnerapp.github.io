@@ -129,7 +129,7 @@ h1 {
             <img src="https://avatars.githubusercontent.com/u/183551247?s=64&v=4" alt="Profile Photo" class="profile-photo">
             <h1>@Flowlearners</h1>
             <p class="launch-text">Welcome to the future of fun interactive learning!</p>
-                <p class="launch-text">The Flowlearner app isn’t available yet, but it’s coming soon! Be among the first to experience learning in a whole new way. Challenge friends, learn together, and discover a more exciting, dynamic path to knowledge!</p>
+                <p class="launch-text">Flowlearner isn’t available yet, but it’s coming soon! Be among the first to experience learning in a whole new way. Challenge friends, learn together, and discover a more exciting, dynamic path to knowledge!</p>
             <div class="social-links">
 <a href="Download options coming soon" target="_blank">Download options coming soon</a>
             </div>
@@ -183,11 +183,6 @@ h1 {
 <div class="box">
     <h2>🏆 Why Flowlearner?</h2>
     <p class="launch-text">Flowlearner is more than just an app—it’s a new way of thinking about learning. It’s about seamlessly integrating fun, social, and interactive learning into your daily routine, so you never have to choose between entertainment and self-improvement.</p>
-</div>
-
-<div class="box">
-    <h2>🚀 Get the App Soon!</h2>
-    <p class="launch-text">The Flowlearner app isn’t available yet, but it’s coming soon! Be among the first to experience learning in a whole new way. Challenge friends, learn together, and discover a more exciting, dynamic path to knowledge!</p>
 </div>
 
         <div class="box">
