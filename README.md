@@ -133,8 +133,9 @@ h1 {
 
 
                 <div class="box">
-            <h2>📱 Follow Us</h2>
-            <p class="launch-text">Follow us on social media to get exclusive updates on the Flowlearner app, sneak peeks at new features, and behind-the-scenes content. Be part of the journey from day one and get the latest news as we build something amazing!</p>
+                <img src="https://avatars.githubusercontent.com/u/183551247?s=64&v=4" alt="Profile Photo" class="profile-photo">
+            <h1>@Flowlearners</h1>
+            <p class="launch-text">Welcome to the future of fun interactive learning!</p>
             <div class="social-links">
 <a href="Download options coming soon" target="_blank">Download options coming soon</a>
             </div>
