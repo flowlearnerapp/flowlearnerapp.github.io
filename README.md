@@ -31,7 +31,7 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center the boxes */
+    justify-content: space-between;
     height: 110vh; /* Ensure full viewport height */
     padding: 15px; /* Adjust the existing padding */
     padding-top: 20px; /* Add 10px padding above the container */
@@ -49,9 +49,9 @@ body {
 
 .profile-photo {
     border-radius: 50%;
-    width: 128px; /* Bigger profile photo */
-    height: 128px;
-    margin-bottom: 5px; /* Less padding between photo and text */
+    width: 64px;
+    height: 64px;
+    margin-bottom: 10px;
 }
 
 h1 {
@@ -107,9 +107,8 @@ h1 {
 
 @media (max-width: 600px) {
     .box {
-        width: calc(100% - 20px); /* Stick to the sides with a small gap */
+        width: 90%;
         padding: 20px;
-        margin: 10px; /* Ensure same gap on each side */
     }
     h1 {
         font-size: 2rem;
@@ -131,9 +130,6 @@ h1 {
             <h1>@Flowlearners</h1>
             <p class="launch-text">Welcome to the future of fun interactive learning!</p>
         </div>
-
-        <!-- Other content -->
-    </div>
 
 Changes made:
 - Increased the `profile-photo` size to `128px` for both width and height.
