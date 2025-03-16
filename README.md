@@ -151,7 +151,7 @@ h1 {
 </div>
 
 <div class="box">
-    <h2>👯‍♀️ Learn With Friends</h2>
+    <h2>🧑‍🤝‍🧑 Learn With Friends</h2>
     <p class="launch-text">Learning is more enjoyable when you can challenge friends and track your progress together. Flowlearner makes it easy to connect with others, turning your learning journey into a dynamic, social experience.</p>
 </div>
 
