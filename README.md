@@ -180,11 +180,6 @@ h1 {
     <p class="launch-text">Learning isn’t just about work; it’s about growth and well-being. Flowlearner’s exercises help clear your mind, reduce stress, and improve focus—perfect for winding down or recharging during the day.</p>
 </div>
 
-<div class="box">
-    <h2>🏆 Why Flowlearner?</h2>
-    <p class="launch-text">Flowlearner is more than just an app—it’s a new way of thinking about learning. It’s about seamlessly integrating fun, social, and interactive learning into your daily routine, so you never have to choose between entertainment and self-improvement.</p>
-</div>
-
         <div class="box">
             <h2>📱 Follow Us</h2>
             <p class="launch-text">Follow us on social media to get exclusive updates on the Flowlearner app, sneak peeks at new features, and behind-the-scenes content. Be part of the journey from day one and get the latest news as we build something amazing!</p>
