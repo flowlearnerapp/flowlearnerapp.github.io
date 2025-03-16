@@ -131,7 +131,7 @@ h1 {
             <p class="launch-text">Welcome to the future of fun interactive learning!</p>
                 <p class="launch-text">Did you know? Otters hold hands while sleeping to prevent drifting apart!</p>
             <div class="social-links">
-<a href="ceo@flowlearner.app" target="_blank">Coming soon 🚀</a>
+<a href="[ceo@flowlearner.app](https://flowlearner.com/#%F0%9F%93%B1-follow-us)" target="_blank">Coming soon 🚀</a>
             </div>
     </div>
         
