@@ -129,13 +129,6 @@ h1 {
             <img src="https://avatars.githubusercontent.com/u/183551247?s=64&v=4" alt="Profile Photo" class="profile-photo">
             <h1>@Flowlearners</h1>
             <p class="launch-text">Welcome to the future of fun interactive learning!</p>
-        </div>
-
-
-                <div class="box">
-                <img src="https://avatars.githubusercontent.com/u/183551247?s=64&v=4" alt="Profile Photo" class="profile-photo">
-            <h1>@Flowlearners</h1>
-            <p class="launch-text">Welcome to the future of fun interactive learning!</p>
             <div class="social-links">
 <a href="Download options coming soon" target="_blank">Download options coming soon</a>
             </div>
