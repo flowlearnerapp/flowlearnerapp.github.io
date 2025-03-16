@@ -47,78 +47,86 @@ body {
     box-sizing: border-box;
 }
 
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-            color: white; 
-        }
+.profile-photo {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    margin-bottom: 10px;
+}
 
-        .launch-text {
-            font-size: 1.4rem;
-            margin-bottom: 20px;
-            font-family: 'Verdana', sans-serif; 
-            line-height: 1.6; 
-        }
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: white; 
+}
 
-        .social-links {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap; 
-            gap: 15px; /
-        }
+.launch-text {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    font-family: 'Verdana', sans-serif; 
+    line-height: 1.6; 
+}
 
-        .social-links a {
-            color: white;
-            text-decoration: center;
-            font-size: 1.2rem;
-            padding: 10px;
-            border-radius: 30px;
-            background-color: rgba(255, 255, 255, 0.2);
-            transition: background-color 0.3s ease;
-        }
+.social-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 15px; /
+}
 
-        .social-links a:hover {
-            background-color: rgba(255, 255, 255, 0.4);
-        }
-        .website-link {
-            font-size: 1.4rem;
-            margin-top: 90px;
-            color: #3E6240;
-            text-decoration: none;
-        }
-            .footer {
-            {width: 100%;
-            text-align: center;
-            font-size: 1rem;
-            color: rgba(255, 255, 255, 0.7);
-            padding: 10px 0;
-        }
+.social-links a {
+    color: white;
+    text-decoration: center;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color 0.3s ease;
+}
 
-        .website-link:hover {
-            text-decoration: underline;
-        }
+.social-links a:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.website-link {
+    font-size: 1.4rem;
+    margin-top: 90px;
+    color: #3E6240;
+    text-decoration: none;
+}
+.footer {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 10px 0;
+}
 
-        @media (max-width: 600px) {
-            .box {
-                width: 90%;
-                padding: 20px;
-            }
-            h1 {
-                font-size: 2rem;
-            }
-            .launch-text {
-                font-size: 1.2rem;
-            }
-            .social-links a {
-                font-size: 1rem;
-                padding: 10px;
-            }
-        }
+.website-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .box {
+        width: 90%;
+        padding: 20px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .launch-text {
+        font-size: 1.2rem;
+    }
+    .social-links a {
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
     </style>
 </head>
 <body>
     <div class="content">
         <div class="box">
+            <img src="https://avatars.githubusercontent.com/u/183551247?s=64&v=4" alt="Profile Photo" class="profile-photo">
             <h1>@Flowlearners</h1>
             <p class="launch-text">Welcome to the future of fun interactive learning!</p>
         </div>
