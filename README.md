@@ -129,6 +129,7 @@ h1 {
             <img src="https://avatars.githubusercontent.com/u/183551247?s=64&v=4" alt="Profile Photo" class="profile-photo">
             <h1>@Flowlearners</h1>
             <p class="launch-text">Welcome to the future of fun interactive learning!</p>
+                <p class="launch-text">The Flowlearner app isn’t available yet, but it’s coming soon! Be among the first to experience learning in a whole new way. Challenge friends, learn together, and discover a more exciting, dynamic path to knowledge!</p>
             <div class="social-links">
 <a href="Download options coming soon" target="_blank">Download options coming soon</a>
             </div>
