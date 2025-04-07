@@ -49,8 +49,8 @@ body {
 
 .profile-photo {
     border-radius: 50%;
-    width: 64px;
-    height: 64px;
+    width: 94px;
+    height: 94px;
     margin-bottom: 10px;
 }
 
