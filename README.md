@@ -31,20 +31,21 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 110vh; /* Ensure full viewport height */
-    padding: 15px; /* Adjust the existing padding */
-    padding-top: 500px;
+    align-items: center; /* Center items horizontally */
+    padding: 15px;
+    padding-top: 200px;
     padding-bottom: 0px;
 }
 
 .box {
-    background: rgba(0, 0, 0, 0.5); 
+    background: rgba(0, 0, 0, 0.5);
     border-radius: 30px;
-    padding: 10px 10px 10px 20px;
+    padding: 20px; /* Increase padding for better spacing */
     margin: 10px 0;
-    width: 100%;
+    width: 90%; /* Adjust width for consistent side spacing */
+    max-width: 630px; /* Ensure box width respects content's max-width */
     box-sizing: border-box;
+    text-align: center; /* Ensure text is centered within the box */
 }
 
 .profile-photo {
