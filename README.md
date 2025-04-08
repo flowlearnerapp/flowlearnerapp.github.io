@@ -21,7 +21,7 @@ body {
     box-sizing: border-box;
     height: 100vh;
     min-height: 100vh;
-    overflow-x: hidden;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 .content {
@@ -31,21 +31,22 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center items horizontally */
+    align-items: center;
     padding: 15px;
-    padding-top: 600px;
-    padding-bottom: 0px;
+    padding-top: 20px; /* Resetting the padding-top */
+    padding-bottom: 60px;
 }
 
 .box {
     background: rgba(0, 0, 0, 0.5);
     border-radius: 30px;
-    padding: 20px; /* Increase padding for better spacing */
-    margin: 10px 0;
-    width: 90%; /* Adjust width for consistent side spacing */
-    max-width: 630px; /* Ensure box width respects content's max-width */
+    padding: 2vh 2vw;
+    margin: 1vh 0;
+    width: 90%;
+    max-width: 630px;
     box-sizing: border-box;
-    text-align: center; /* Ensure text is centered within the box */
+    text-align: center;
+    font-size: calc(16px + 0.5vw);
 }
 
 .profile-photo {
@@ -56,23 +57,75 @@ body {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: calc(2rem + 1vw);
     margin-bottom: 10px;
-    color: white; 
+    color: white;
 }
 
 .launch-text {
-    font-size: 1.4rem;
-    margin-bottom: 20px;
-    font-family: 'Verdana', sans-serif; 
-    line-height: 1.6; 
+    font-size: calc(1.2rem + 0.3vw);
+    font-family: 'Verdana', sans-serif;
+    line-height: 1.6;
 }
 
 .social-links {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; 
-    gap: 15px; /
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: center;
+    font-size: calc(1rem + 0.2vw);
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.website-link {
+    font-size: 1.4rem;
+    margin-top: 90px;
+    color: #3E6240;
+    text-decoration: none;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 10px 0;
+}
+
+.website-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .box {
+        padding: 3vh 3vw;
+        font-size: calc(14px + 0.4vw);
+    }
+
+    h1 {
+        font-size: calc(1.8rem + 0.8vw);
+    }
+
+    .launch-text {
+        font-size: calc(1rem + 0.2vw);
+    }
+
+    .social-links a {
+        font-size: calc(0.9rem + 0.1vw);
+        padding: 8px;
+    }
 }
 
 .social-links a {
