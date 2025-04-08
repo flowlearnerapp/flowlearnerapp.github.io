@@ -33,7 +33,7 @@ body {
     flex-direction: column;
     align-items: center; /* Center items horizontally */
     padding: 15px;
-    padding-top: 10000px;
+    padding-top: 9000px;
     padding-bottom: 0px;
 }
 
