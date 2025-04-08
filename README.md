@@ -33,7 +33,7 @@ body {
     flex-direction: column;
     align-items: center; /* Center items horizontally */
     padding: 15px;
-    padding-top: 6000px;
+    padding-top: 3000px;
     padding-bottom: 0px;
 }
 
@@ -50,8 +50,8 @@ body {
 
 .profile-photo {
     border-radius: 50%;
-    width: 64px;
-    height: 64px;
+    width: 90px;
+    height: 90px;
     margin-bottom: 10px;
 }
 
