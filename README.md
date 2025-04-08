@@ -7,21 +7,22 @@
     <title>Flowlearner</title>
     <style>
 body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    background: black url('https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearnerapp%20background.jpg') no-repeat center center fixed;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 10px;
-    box-sizing: border-box;
-    height: 100vh;
-    min-height: 100vh;
-    overflow-x: hidden;
+ margin: 0;
+ font-family: 'Arial', sans-serif;
+ background: black url('https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearnerapp%20background.jpg') no-repeat center center fixed;
+ background-size: cover;
+ color: white;
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ padding: 10px;
+ box-sizing: border-box;
+ height: 100vh;
+ min-height: 100vh;
+ overflow-x: hidden;
+ overflow-y: auto; /* Add this line to enable scrolling */
 }
 
 .content {
