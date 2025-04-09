@@ -21,7 +21,7 @@ body {
     box-sizing: border-box;
     height: 100vh;
     min-height: 100vh;
-    overflow-x: hidden;
+    overflow-x: flex;
 }
 
 .content {
