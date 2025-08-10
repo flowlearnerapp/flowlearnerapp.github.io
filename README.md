@@ -126,7 +126,7 @@ h1 {
 <body>
     <div class="content">
         <div class="box">
-            <img src="https://avatars.githubusercontent.com/u/183551247?s=400&u=f2c2802d0a97b8e02fa1d1d7a3fe7ca1cfe41e0b&v=4">
+            <img src="https://avatars.githubusercontent.com/u/183551247?s=64&v=4" alt="Profile Photo" class="profile-photo">
             <h1>Flowlearner</h1>
             <p class="launch-text">Welcome to the future of fun interactive learning!</p>
                 <p class="launch-text">Did you know? Otters hold hands while sleeping to prevent drifting apart!</p>
