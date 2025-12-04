@@ -2,21 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Flowlearner</title>
     <style>
         html, body {
             height: 100%;
             margin: 0;
+            padding: 0;
         }
         body {
             background: url('https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearnerapp%20background.jpg') no-repeat center center fixed;
             background-size: cover;
             color: black;
             font-family: sans-serif;
-            padding: 0;
             line-height: 1.5;
-            padding-top: env(safe-area-inset-top);
+            padding-top: 60px; /* Fixed padding to hide top text behind background */
             padding-bottom: env(safe-area-inset-bottom);
             padding-left: env(safe-area-inset-left);
             padding-right: env(safe-area-inset-right);
