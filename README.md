@@ -269,7 +269,6 @@
                 <a class="social-button" href="https://www.threads.net/@flowlearnerapp" target="_blank">Threads</a>
             </div>
         </div>
-        </div>
         <div class="support">
             bug@flowlearner.app support@flowlearner.app legal@flowlearner.app
         </div>
