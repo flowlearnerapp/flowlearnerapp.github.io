@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -40,7 +41,7 @@
             background: rgba(255, 255, 255, 0.5);
             border-radius: 20px;
             padding: 20px;
-            margin-bottom: 20px;
+            margin-bottom: 40px;
             overflow-wrap: break-word;
         }
         .header {
@@ -150,7 +151,7 @@
         }
         @media (max-width: 480px) {
             .container {
-                padding: 10px;
+                padding: 0 10px 10px;
             }
             .title {
                 font-size: 28px;
