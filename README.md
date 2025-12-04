@@ -183,4 +183,74 @@
                 <span class="icon blue-icon">📈</span>
                 <h2 class="section-title">Track Your Growth</h2>
             </div>
-            <p class="section-text">With Flowlearner, you can easily track your learning journey. Monitor your progress, set goals, and celebrate your achievements as
+            <p class="section-text">With Flowlearner, you can easily track your learning journey. Monitor your progress, set goals, and celebrate your achievements as you level up your skills and knowledge.</p>
+        </div>
+
+        <div class="rounded-container">
+            <div class="section-header">
+                <span class="icon blue-icon">🌐</span>
+                <h2 class="section-title">Join The Flowlearner Community</h2>
+            </div>
+            <p class="section-text">Learning is a lifelong journey, and at Flowlearner, we believe in evolving together. Join a vibrant community of learners who are passionate about growth, exploration, and fun.</p>
+        </div>
+
+        <div class="rounded-container">
+            <div class="section-header">
+                <span class="icon yellow-icon">⭐</span>
+                <h2 class="section-title">Unlock Your Best Self</h2>
+            </div>
+            <p class="section-text">Everyone has an ideal version of themselves—someone who is constantly growing, learning, and evolving. Flowlearner helps you take actionable steps towards becoming that person every day, with bite-sized learning opportunities that fit your lifestyle.</p>
+        </div>
+
+        <div class="rounded-container">
+            <div class="section-header">
+                <span class="icon purple-icon">🎮</span>
+                <h2 class="section-title">Learning Through Fun Games</h2>
+            </div>
+            <p class="section-text">Say goodbye to boring textbooks and hello to interactive educational games that make learning feel like play! Flowlearner's gamified approach turns every challenge into an opportunity to grow while having fun.</p>
+        </div>
+
+        <div class="rounded-container">
+            <div class="section-header">
+                <span class="icon yellow-icon">🧘</span>
+                <h2 class="section-title">Relax and Recharge Your Mind</h2>
+            </div>
+            <p class="section-text">Learning isn't just about work; it's about growth and well-being. Flowlearner's exercises help clear your mind, reduce stress, and improve focus—perfect for winding down or recharging during the day.</p>
+        </div>
+
+        <div class="rounded-container">
+            <div class="section-header">
+                <span class="icon blue-icon">📱</span>
+                <h2 class="section-title">Follow Us</h2>
+            </div>
+            <p class="section-text">Follow us on social media to get exclusive updates on the Flowlearner app, sneak peeks at new features, and behind-the-scenes content. Be part of the journey from day one and get the latest news as we build something amazing!</p>
+            <div class="social-buttons">
+                <button class="social-button">Instagram</button>
+                <button class="social-button">TikTok</button>
+                <button class="social-button">YouTube</button>
+                <button class="social-button">Bluesky</button>
+                <button class="social-button">Snapchat</button>
+                <button class="social-button">Reddit</button>
+                <button class="social-button">Mastodon</button>
+                <button class="social-button">Clubhouse</button>
+                <button class="social-button">Twitch</button>
+                <button class="social-button">Quora</button>
+                <button class="social-button">Pinterest</button>
+                <button class="social-button">Discord</button>
+                <button class="social-button">Medium</button>
+                <button class="social-button">X</button>
+                <button class="social-button">Telegram</button>
+                <button class="social-button">Threads</button>
+            </div>
+        </div>
+
+        <div class="support">
+            bug@flowlearner.app support@flowlearner.app legal@flowlearner.app
+        </div>
+
+        <div class="copyright">
+            © 2025 Flowlearner. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
