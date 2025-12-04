@@ -16,7 +16,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: url('[https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearnerapp%20background.jpg](https://github.com/flowlearnerapp/flowlearnerapp.github.io/blob/main/Flowlearner%20dark%20.png?raw=true)') no-repeat center center / cover;
+            background: url('https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearnerapp%20background.jpg](https://github.com/flowlearnerapp/flowlearnerapp.github.io/blob/main/Flowlearner%20dark%20.png?raw=true') no-repeat center center / cover;
             z-index: 0;
         }
         body {
@@ -175,7 +175,7 @@
     <div class="background"></div>
     <div class="container">
         <div class="rounded-container header">
-            <img src="[https://avatars.githubusercontent.com/u/183551247?s=64&v=4](https://github.com/flowlearnerapp/flowlearnerapp.github.io/blob/main/Flowlearner_Logo.png?raw=true)" alt="Flowlearner Logo" class="logo">
+            <img src="https://avatars.githubusercontent.com/u/183551247?s=64&v=4](https://github.com/flowlearnerapp/flowlearnerapp.github.io/blob/main/Flowlearner_Logo.png?raw=true" alt="Flowlearner Logo" class="logo">
             <h1 class="title">Flowlearner</h1>
             <p class="subtitle">Welcome to the Future of Fun Interactive Learning!</p>
             <p class="fact">Did You Know? Otters hold hands while sleeping to prevent drifting apart!</p>
