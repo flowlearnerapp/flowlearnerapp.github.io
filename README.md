@@ -6,7 +6,7 @@
     <title>Flowlearner</title>
     <style>
         html, body {
-            height: 100%;
+            height: 0%;
             margin: 0;
             padding: 0;
         }
