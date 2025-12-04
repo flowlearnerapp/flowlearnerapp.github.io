@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     padding: 10px;
     box-sizing: border-box;
-    height: 100vh;
+    height: auto;
     min-height: 100vh;
     overflow-x: flex;
 }
@@ -183,17 +183,14 @@ h1 {
 <a href="https://www.threads.net/@flowlearnerapp" target="_blank">Threads</a>
             </div>
     </div>
-   
-<body>
     <div class="email-container">
       <a href="mailto:support@flowlearner.app" style="color: white">support@flowlearner.app</a>
       <a href="mailto:bugs@flowlearner.app" style="color: white">bugs@flowlearner.app</a>
       <a href="mailto:legal@flowlearner.app" style="color: white">legal@flowlearner.app</a>
       <a href="mailto:security@flowlearner.app" style="color: white">security@flowlearner.app</a>
     </div>
-     <body>
-    <div class="2025 Flowlearner, All rights reserved">
+    <div class="footer">
      <p>&copy; 2025 Flowlearner, All rights reserved.</p>
     </div>
-    
+</div>
 </body>
