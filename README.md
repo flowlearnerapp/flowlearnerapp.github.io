@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flowlearner</title>
     <style>
         html, body {
@@ -13,9 +13,9 @@
         body {
             background: url('https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearnerapp%20background.jpg') no-repeat center center fixed;
             background-size: cover;
-            color: black;
             font-family: sans-serif;
             line-height: 1.5;
+            color: transparent;
             min-height: 100vh;
             padding-bottom: env(safe-area-inset-bottom);
             padding-left: env(safe-area-inset-left);
@@ -25,9 +25,10 @@
             max-width: 600px;
             margin: 0 auto;
             padding: 20px;
+            color: black;
         }
         .rounded-container {
-            background: white;
+            background: rgba(255, 255, 255, 0.5);
             border-radius: 20px;
             padding: 20px;
             margin-bottom: 40px;
@@ -120,11 +121,11 @@
             }
         }
         @media (prefers-color-scheme: dark) {
-            body {
+            .container {
                 color: white;
             }
             .rounded-container {
-                background: black;
+                background: rgba(0, 0, 0, 0.5);
             }
             .social-button {
                 background-color: #333;
