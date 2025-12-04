@@ -34,7 +34,7 @@
             width: 100%;
             max-width: 600px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 0 20px 20px; /* Removed top padding to delete space above the header container */
             box-sizing: border-box;
         }
         .rounded-container {
@@ -151,7 +151,7 @@
         }
         @media (max-width: 480px) {
             .container {
-                padding: 10px;
+                padding: 0 10px 10px;
             }
             .title {
                 font-size: 28px;
