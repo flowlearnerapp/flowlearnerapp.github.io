@@ -9,7 +9,6 @@
             height: 100%;
             margin: 0;
             padding: 0;
-            overflow-x: hidden; /* Prevent horizontal overflow */
         }
         .background {
             position: fixed;
@@ -28,10 +27,10 @@
             padding-bottom: env(safe-area-inset-bottom);
             padding-left: env(safe-area-inset-left);
             padding-right: env(safe-area-inset-right);
+            overflow-x: hidden;
             display: flex;
             flex-direction: column;
             min-height: 100vh;
-            overflow-y: auto; /* Allow vertical scrolling if needed */
         }
         .container {
             position: relative;
@@ -42,16 +41,12 @@
             display: flex;
             flex-direction: column;
             flex-grow: 1;
-            overflow-wrap: break-word; /* Prevent text overflow */
         }
         .rounded-container {
             background: rgba(255, 255, 255, 0.5);
             border-radius: 20px;
             padding: 20px;
             margin-bottom: 40px;
-            display: flex;
-            flex-direction: column;
-            overflow: hidden; /* Prevent overflow in containers */
         }
         .header {
             position: relative;
@@ -68,13 +63,15 @@
             font-size: 32px;
             margin: 0;
         }
-        .subtitle {
+        .subtitle, .fact, .section-text {
             font-size: 18px;
             margin: 10px 0;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            hyphens: auto;
         }
         .fact {
             font-size: 16px;
-            margin: 10px 0;
         }
         .coming-soon {
             font-size: 14px;
@@ -97,7 +94,6 @@
         .section-text {
             font-size: 16px;
             margin: 0;
-            overflow-wrap: break-word; /* Prevent text overflow */
         }
         .yellow-icon {
             color: yellow;
@@ -132,6 +128,21 @@
         .copyright {
             font-size: 12px;
             text-align: center;
+        }
+        @media (max-width: 600px) {
+            .container {
+                max-width: 100%;
+                padding: 10px;
+            }
+            .subtitle, .fact, .section-text {
+                font-size: 16px;
+            }
+            .title {
+                font-size: 28px;
+            }
+            .section-title {
+                font-size: 20px;
+            }
         }
         @media (min-width: 768px) {
             .container {
