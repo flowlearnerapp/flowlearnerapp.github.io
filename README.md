@@ -26,6 +26,7 @@
         }
         .header {
             position: relative;
+            text-align: center;
         }
         .logo {
             width: 64px;
@@ -80,7 +81,7 @@
         .social-buttons {
             display: flex;
             flex-wrap: wrap;
-            justify-content: left;
+            justify-content: center;
             margin: 20px 0;
         }
         .social-button {
@@ -96,10 +97,19 @@
         .support {
             font-size: 12px;
             margin: 10px 0;
+            text-align: center;
         }
         .copyright {
             font-size: 12px;
-            text-align: left;
+            text-align: center;
+        }
+        @media (min-width: 768px) {
+            .container {
+                max-width: 900px;
+            }
+            .social-buttons {
+                justify-content: center;
+            }
         }
         @media (prefers-color-scheme: dark) {
             body {
