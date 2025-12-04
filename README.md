@@ -25,11 +25,9 @@
             max-width: 600px;
             margin: 0 auto;
             padding: 20px;
-            margin-top: -100px; /* Push content down to hide top text off-screen */
-            min-height: calc(100vh + 100px); /* Ensure content extends to cover the hidden area */
         }
         .rounded-container {
-            background: rgba(255, 255, 255, 0.5);
+            background: white;
             border-radius: 20px;
             padding: 20px;
             margin-bottom: 40px;
@@ -126,7 +124,7 @@
                 color: white;
             }
             .rounded-container {
-                background: rgba(0, 0, 0, 0.5);
+                background: black;
             }
             .social-button {
                 background-color: #333;
