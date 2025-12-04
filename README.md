@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Flowlearner</title>
     <style>
         html, body {
@@ -16,7 +16,7 @@
             color: black;
             font-family: sans-serif;
             line-height: 1.5;
-            padding-top: 60px; /* Fixed padding to hide top text behind background */
+            min-height: 100vh;
             padding-bottom: env(safe-area-inset-bottom);
             padding-left: env(safe-area-inset-left);
             padding-right: env(safe-area-inset-right);
@@ -25,6 +25,8 @@
             max-width: 600px;
             margin: 0 auto;
             padding: 20px;
+            margin-top: -100px; /* Push content down to hide top text off-screen */
+            min-height: calc(100vh + 100px); /* Ensure content extends to cover the hidden area */
         }
         .rounded-container {
             background: rgba(255, 255, 255, 0.5);
