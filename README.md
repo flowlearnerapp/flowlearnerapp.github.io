@@ -5,13 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Flowlearner</title>
     <style>
-        * {
-            box-sizing: border-box;
-        }
         html, body {
             height: 100%;
             margin: 0;
             padding: 0;
+            overflow-wrap: break-word;
         }
         .background {
             position: fixed;
@@ -20,7 +18,7 @@
             width: 100%;
             height: 100%;
             background: url('https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearnerapp%20background.jpg') no-repeat center center / cover;
-            z-index: 0;
+            z-index: -1;
         }
         body {
             color: black;
@@ -43,9 +41,10 @@
             border-radius: 20px;
             padding: 20px;
             margin-bottom: 40px;
+            box-sizing: border-box;
+            width: 100%;
         }
         .header {
-            position: relative;
             text-align: center;
         }
         .logo {
@@ -58,9 +57,6 @@
         .title {
             font-size: 32px;
             margin: 0;
-        }
-        .subtitle, .fact, .section-text, .support, .copyright {
-            overflow-wrap: break-word;
         }
         .subtitle {
             font-size: 18px;
@@ -126,6 +122,33 @@
             font-size: 12px;
             text-align: center;
         }
+        @media (max-width: 767px) {
+            .container {
+                padding: 10px;
+            }
+            .rounded-container {
+                padding: 15px;
+                margin-bottom: 20px;
+            }
+            .title {
+                font-size: 28px;
+            }
+            .subtitle {
+                font-size: 16px;
+            }
+            .fact {
+                font-size: 14px;
+            }
+            .section-title {
+                font-size: 20px;
+            }
+            .section-text {
+                font-size: 14px;
+            }
+            .social-buttons {
+                justify-content: center;
+            }
+        }
         @media (min-width: 768px) {
             .container {
                 max-width: 900px;
@@ -147,23 +170,6 @@
             }
             .yellow-icon {
                 color: yellow;
-            }
-        }
-        @media (max-width: 600px) {
-            .container {
-                padding: 10px;
-            }
-            .rounded-container {
-                padding: 10px;
-            }
-            .title {
-                font-size: 28px;
-            }
-            .subtitle {
-                font-size: 16px;
-            }
-            .fact, .section-text {
-                font-size: 14px;
             }
         }
     </style>
