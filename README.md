@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Flowlearner</title>
     <style>
         html, body {
@@ -10,22 +10,30 @@
             margin: 0;
             padding: 0;
         }
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearnerapp%20background.jpg') no-repeat center center / cover;
+            z-index: 0;
+        }
         body {
-            background: url('https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearnerapp%20background.jpg') no-repeat center center fixed;
-            background-size: cover;
+            color: black;
             font-family: sans-serif;
             line-height: 1.5;
-            color: transparent;
-            min-height: 100vh;
+            padding-top: env(safe-area-inset-top);
             padding-bottom: env(safe-area-inset-bottom);
             padding-left: env(safe-area-inset-left);
             padding-right: env(safe-area-inset-right);
         }
         .container {
+            position: relative;
+            z-index: 1;
             max-width: 600px;
             margin: 0 auto;
             padding: 20px;
-            color: black;
         }
         .rounded-container {
             background: rgba(255, 255, 255, 0.5);
@@ -121,7 +129,7 @@
             }
         }
         @media (prefers-color-scheme: dark) {
-            .container {
+            body {
                 color: white;
             }
             .rounded-container {
@@ -138,6 +146,7 @@
     </style>
 </head>
 <body>
+    <div class="background"></div>
     <div class="container">
         <div class="rounded-container header">
             <img src="https://avatars.githubusercontent.com/u/183551247?s=64&v=4" alt="Flowlearner Logo" class="logo">
