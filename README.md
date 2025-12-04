@@ -34,7 +34,7 @@
             width: 100%;
             max-width: 600px;
             margin: 0 auto;
-            padding: 40px 20px 20px 20px;
+            padding: 0 20px 20px;
             box-sizing: border-box;
         }
         .rounded-container {
@@ -151,7 +151,7 @@
         }
         @media (max-width: 480px) {
             .container {
-                padding: 40px 10px 10px 10px;
+                padding: 0 10px 10px;
             }
             .title {
                 font-size: 28px;
