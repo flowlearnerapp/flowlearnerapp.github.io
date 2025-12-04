@@ -1,219 +1,240 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="google-site-verification" content="3pB8ZRGimVAO7oWoWzeDjoYClBKOfJvFB1yYH_neb5o" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <a rel="me" href="https://mastodon.social/@flowlearnerapp">Mastodon</a>
     <title>Flowlearner</title>
     <style>
-body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    background: black url('https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearnerapp%20background.jpg') no-repeat center center fixed;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 10px;
-    box-sizing: border-box;
-    height: 100vh;
-    min-height: 100vh;
-    overflow-x: flex;
-}
-
-.content {
-    flex-grow: 1;
-    width: 100%;
-    max-width: 700px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 110vh; /* Ensure full viewport height */
-    padding: 15px; /* Adjust the existing padding */
-    padding-top: 20px; /* Add 10px padding above the container */
-    padding-bottom: 60px; /* Add padding at the bottom */
-}
-
-.box {
-    background: rgba(0, 0, 0, 0.5); 
-    border-radius: 30px;
-    padding: 10px 10px 10px 20px;
-    margin: 10px 0;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-.profile-photo {
-    border-radius: 50%;
-    width: 64px;
-    height: 64px;
-    margin-bottom: 10px;
-}
-
-h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-    color: white; 
-}
-
-.launch-text {
-    font-size: 1.4rem;
-    margin-bottom: 20px;
-    font-family: 'Verdana', sans-serif; 
-    line-height: 1.6; 
-}
-
-.social-links {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap; 
-    gap: 15px; /
-}
-
-.social-links a {
-    color: white;
-    text-decoration: center;
-    font-size: 1.2rem;
-    padding: 10px;
-    border-radius: 30px;
-    background-color: rgba(255, 255, 255, 0.2);
-    transition: background-color 0.3s ease;
-}
-
-.social-links a:hover {
-    background-color: rgba(255, 255, 255, 0.4);
-}
-.website-link {
-    font-size: 1.4rem;
-    margin-top: 90px;
-    color: #3E6240;
-    text-decoration: none;
-}
-.footer {
-    width: 100%;
-    text-align: center;
-    font-size: 1rem;
-    color: rgba(255, 255, 255, 0.7);
-    padding: 10px 0;
-}
-
-.website-link:hover {
-    text-decoration: underline;
-}
-
-@media (max-width: 600px) {
-    .box {
-        width: 90%;
-        padding: 20px;
-    }
-    h1 {
-        font-size: 2rem;
-    }
-    .launch-text {
-        font-size: 1.2rem;
-    }
-    .social-links a {
-        font-size: 1rem;
-        padding: 10px;
-    }
-}
+        body {
+            background: white;
+            color: black;
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.5;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .rounded-container {
+            background: rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            padding: 20px;
+            margin-bottom: 40px;
+        }
+        .header {
+            position: relative;
+        }
+        .logo {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 10px;
+        }
+        .title {
+            font-size: 32px;
+            margin: 0;
+        }
+        .subtitle {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .fact {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        .coming-soon {
+            font-size: 14px;
+            color: orange;
+            margin: 10px 0;
+        }
+        .section-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .icon {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        .section-title {
+            font-size: 24px;
+            margin: 0;
+        }
+        .section-text {
+            font-size: 16px;
+            margin: 0;
+        }
+        .yellow-icon {
+            color: yellow;
+        }
+        .blue-icon {
+            color: #3b82f6;
+        }
+        .purple-icon {
+            color: #7c3aed;
+        }
+        .social-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: left;
+            margin: 20px 0;
+        }
+        .social-button {
+            background-color: #ddd;
+            color: black;
+            border: none;
+            border-radius: 20px;
+            padding: 8px 16px;
+            margin: 5px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .support {
+            font-size: 12px;
+            margin: 10px 0;
+        }
+        .copyright {
+            font-size: 12px;
+            text-align: left;
+        }
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: black url('https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearnerapp%20background.jpg') no-repeat center center fixed;
+                background-size: cover;
+                color: white;
+            }
+            .rounded-container {
+                background: rgba(0, 0, 0, 0.5);
+            }
+            .social-button {
+                background-color: #333;
+                color: white;
+            }
+            .yellow-icon {
+                color: yellow;
+            }
+        }
     </style>
 </head>
 <body>
-    <div class="content">
-        <div class="box">
-            <img src="https://avatars.githubusercontent.com/u/183551247?s=64&v=4" alt="Profile Photo" class="profile-photo">
-            <h1>Flowlearner</h1>
-            <p class="launch-text">Welcome to the future of fun interactive learning!</p>
-                <p class="launch-text">Did you know? Otters hold hands while sleeping to prevent drifting apart!</p>
-            <div class="social-links">
-<a href="https://flowlearner.com/#%F0%9F%93%B1-follow-us" target="_blank">Coming soon 🚀</a>
+    <div class="container">
+        <div class="rounded-container header">
+            <img src="https://avatars.githubusercontent.com/u/183551247?s=64&v=4" alt="Flowlearner Logo" class="logo">
+            <h1 class="title">Flowlearner</h1>
+            <p class="subtitle">Welcome to the Future of Fun Interactive Learning!</p>
+            <p class="fact">Did You Know? Otters hold hands while sleeping to prevent drifting apart!</p>
+            <p class="coming-soon">Coming Soon /</p>
+        </div>
+
+        <div class="rounded-container">
+            <div class="section-header">
+                <span class="icon yellow-icon">☀️</span>
+                <h2 class="section-title">Wake Up To Learning</h2>
             </div>
-    </div>
-        
-<div class="box">
-    <h2>🌅 Wake Up to Learning</h2>
-    <p class="launch-text">Imagine waking up in the morning and starting your day with a quick, brain-boosting learning exercise. Rather than feeling sluggish, why not energize yourself with a fun challenge that sparks your curiosity and focus?</p>
-</div>
+            <p class="section-text">Imagine waking up in the morning and starting your day with a quick, brain-boosting learning exercise. Rather than feeling sluggish, why not energize yourself with a fun challenge that sparks your curiosity and focus?</p>
+        </div>
 
-<div class="box">
-    <h2>🚌 Learning on the Go</h2>
-    <p class="launch-text">Whether you're on the bus, waiting in line, or taking a short break, every moment becomes an opportunity to learn. With Flowlearner, you can engage your mind, even without headphones, making every minute count.</p>
-</div>
-
-<div class="box">
-    <h2>💡 Challenge Your Mind</h2>
-    <p class="launch-text">Flowlearner is designed to boost your brain power with short, interactive games that are both fun and educational. Improve your skills and knowledge while enjoying the process!</p>
-</div>
-
-<div class="box">
-    <h2>🧑‍🤝‍🧑 Learn With Friends</h2>
-    <p class="launch-text">Learning is more enjoyable when you can challenge friends and track your progress together. Flowlearner makes it easy to connect with others, turning your learning journey into a dynamic, social experience.</p>
-</div>
-
-<div class="box">
-    <h2>📈 Track Your Growth</h2>
-    <p class="launch-text">With Flowlearner, you can easily track your learning journey. Monitor your progress, set goals, and celebrate your achievements as you level up your skills and knowledge.</p>
-</div>
-
-<div class="box">
-    <h2>🌐 Join the Flowlearner Community</h2>
-    <p class="launch-text">Learning is a lifelong journey, and at Flowlearner, we believe in evolving together. Join a vibrant community of learners who are passionate about growth, exploration, and fun!</p>
-</div>
-
-<div class="box">
-    <h2>🌟 Unlock Your Best Self</h2>
-    <p class="launch-text">Everyone has an ideal version of themselves—someone who is constantly growing, learning, and evolving. Flowlearner helps you take actionable steps towards becoming that person every day, with bite-sized learning opportunities that fit your lifestyle.</p>
-</div>
-
-<div class="box">
-    <h2>🎮 Learning Through Fun Games</h2>
-    <p class="launch-text">Say goodbye to boring textbooks and hello to interactive educational games that make learning feel like play! Flowlearner's gamified approach turns every challenge into an opportunity to grow while having fun.</p>
-</div>
-
-<div class="box">
-    <h2>🧘‍♂️ Relax and Recharge Your Mind</h2>
-    <p class="launch-text">Learning isn’t just about work; it’s about growth and well-being. Flowlearner’s exercises help clear your mind, reduce stress, and improve focus—perfect for winding down or recharging during the day.</p>
-</div>
-
-        <div class="box">
-            <h2>📱 Follow Us</h2>
-            <p class="launch-text">Follow us on social media to get exclusive updates on the Flowlearner app, sneak peeks at new features, and behind-the-scenes content. Be part of the journey from day one and get the latest news as we build something amazing!</p>
-            <div class="social-links">
-<a href="https://www.instagram.com/flowlearnerapp/profilecard/?igsh=ZTZuZGxmeDh4NHk5" target="_blank">Instagram</a>
-<a href="https://www.tiktok.com/@flowlearnerapp?_t=8rYAgm2WqqO&_r=1" target="_blank">TikTok</a>
-<a href="https://youtube.com/@flowlearnerapp?si=Twh5d4r_0XDF2ahq" target="_blank">YouTube</a>
-<a href="https://bsky.app/profile/flowlearner.app" target="_blank">Bluesky</a>
-<a href="https://www.snapchat.com/add/flowlearnerapp?share_id=K8GyNWLwPUU&locale=en-GB" target="_blank">Snapchat</a>
-<a href="https://www.reddit.com/u/Flowlearnerapp/s/vkHmCzbioT" target="_blank">Reddit</a>
-<a href="https://mastodon.social/@flowlearnerapp" target="_blank">Mastodon</a>
-<a href="https://www.clubhouse.com/@flowlearnerapp?utm_medium=ch_profile&utm_campaign=7YqXPZWcFT5oLos-ZzaV-g-1517986&chs=2d3SQbbE0R%3AUhvTZ6JFOty0GCIrefX5RExO2QyWONEFKy5Q82a99BM" target="_blank">Clubhouse</a>
-<a href="https://www.twitch.tv/flowlearnerapp" target="_blank">Twitch</a>
-<a href="https://www.quora.com/profile/FlowLearnerApp?ch=10&oid=2851138589&share=8be3e92c&srid=3AGvwK&target_type=user" target="_blank">Quora</a>
-<a href="https://pin.it/21RAjRLOs" target="_blank">Pinterest</a>
-<a href="https://discord.gg/hguTPEcHZg" target="_blank">Discord</a>
-<a href="https://medium.com/@flowlearnerapp" target="_blank">Medium</a>
-<a href="https://x.com/flowlearnerapp?s=09" target="_blank">X</a>
-<a href="https://t.me/Flowlearnerapp">Telegram</a>
-<a href="https://www.threads.net/@flowlearnerapp" target="_blank">Threads</a>
+        <div class="rounded-container">
+            <div class="section-header">
+                <span class="icon yellow-icon">🚀</span>
+                <h2 class="section-title">Learning on the Go</h2>
             </div>
-    </div>
-    
-<body>
-    <div class="email-container">
-      <a href="mailto:support@flowlearner.app" style="color: white">support@flowlearner.app</a>
-      <a href="mailto:bugs@flowlearner.app" style="color: white">bugs@flowlearner.app</a>
-      <a href="mailto:legal@flowlearner.app" style="color: white">legal@flowlearner.app</a>
-      <a href="mailto:security@flowlearner.app" style="color: white">security@flowlearner.app</a>
-    </div>
+            <p class="section-text">Whether you're on the bus, waiting in line, or taking a short break, every moment becomes an opportunity to learn. With Flowlearner, you can engage your mind, even without headphones, making every minute count.</p>
+        </div>
 
-     <body>
-    <div class="2025 Flowlearner, All rights reserved">
-     <p>&copy; 2025 Flowlearner, All rights reserved.</p>
+        <div class="rounded-container">
+            <div class="section-header">
+                <span class="icon yellow-icon">💡</span>
+                <h2 class="section-title">Challenge Your Mind</h2>
+            </div>
+            <p class="section-text">Flowlearner is designed to fuel your brain power with interactive games that are both fun and educational. Improve your skills and knowledge while enjoying the process!</p>
+        </div>
+
+        <div class="rounded-container">
+            <div class="section-header">
+                <span class="icon yellow-icon">👥</span>
+                <h2 class="section-title">Learn With Friends</h2>
+            </div>
+            <p class="section-text">Learning is more enjoyable when you can challenge friends and track your progress together. Flowlearner makes it easy to connect with others, turning your learning journey into a dynamic, social experience.</p>
+        </div>
+
+        <div class="rounded-container">
+            <div class="section-header">
+                <span class="icon blue-icon">📈</span>
+                <h2 class="section-title">Track Your Growth</h2>
+            </div>
+            <p class="section-text">With Flowlearner, you can easily track your learning journey. Monitor your progress, set goals, and celebrate your achievements as you level up your skills and knowledge.</p>
+        </div>
+
+        <div class="rounded-container">
+            <div class="section-header">
+                <span class="icon blue-icon">🌐</span>
+                <h2 class="section-title">Join The Flowlearner Community</h2>
+            </div>
+            <p class="section-text">Learning is a lifelong journey, and at Flowlearner, we believe in evolving together. Join a vibrant community of learners who are passionate about growth, exploration, and fun.</p>
+        </div>
+
+        <div class="rounded-container">
+            <div class="section-header">
+                <span class="icon yellow-icon">⭐</span>
+                <h2 class="section-title">Unlock Your Best Self</h2>
+            </div>
+            <p class="section-text">Everyone has an ideal version of themselves—someone who is constantly growing, learning, and evolving. Flowlearner helps you take actionable steps towards becoming that person every day, with bite-sized learning opportunities that fit your lifestyle.</p>
+        </div>
+
+        <div class="rounded-container">
+            <div class="section-header">
+                <span class="icon purple-icon">🎮</span>
+                <h2 class="section-title">Learning Through Fun Games</h2>
+            </div>
+            <p class="section-text">Say goodbye to boring textbooks and hello to interactive educational games that make learning feel like play! Flowlearner's gamified approach turns every challenge into an opportunity to grow while having fun.</p>
+        </div>
+
+        <div class="rounded-container">
+            <div class="section-header">
+                <span class="icon yellow-icon">🧘</span>
+                <h2 class="section-title">Relax and Recharge Your Mind</h2>
+            </div>
+            <p class="section-text">Learning isn't just about work; it's about growth and well-being. Flowlearner's exercises help clear your mind, reduce stress, and improve focus—perfect for winding down or recharging during the day.</p>
+        </div>
+
+        <div class="rounded-container">
+            <div class="section-header">
+                <span class="icon blue-icon">📱</span>
+                <h2 class="section-title">Follow Us</h2>
+            </div>
+            <p class="section-text">Follow us on social media to get exclusive updates on the Flowlearner app, sneak peeks at new features, and behind-the-scenes content. Be part of the journey from day one and get the latest news as we build something amazing!</p>
+            <div class="social-buttons">
+                <button class="social-button">Instagram</button>
+                <button class="social-button">TikTok</button>
+                <button class="social-button">YouTube</button>
+                <button class="social-button">Bluesky</button>
+                <button class="social-button">Snapchat</button>
+                <button class="social-button">Reddit</button>
+                <button class="social-button">Mastodon</button>
+                <button class="social-button">Clubhouse</button>
+                <button class="social-button">Twitch</button>
+                <button class="social-button">Quora</button>
+                <button class="social-button">Pinterest</button>
+                <button class="social-button">Discord</button>
+                <button class="social-button">Medium</button>
+                <button class="social-button">X</button>
+                <button class="social-button">Telegram</button>
+                <button class="social-button">Threads</button>
+            </div>
+        </div>
+
+        <div class="support">
+            bug@flowlearner.app support@flowlearner.app legal@flowlearner.app
+        </div>
+
+        <div class="copyright">
+            © 2025 Flowlearner. All rights reserved.
+        </div>
     </div>
-     
 </body>
+</html>
