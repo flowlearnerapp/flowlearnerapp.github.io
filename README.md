@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>  
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,7 +6,7 @@
     <title>Flowlearner</title>
     <style>
         html, body {
-            height: 0%;
+            height: 100%;
             margin: 0;
             padding: 0;
         }
@@ -15,7 +15,7 @@
             top: 0;
             left: 0;
             width: 100%;
-            height: 0%;
+            height: 100%;
             background: url('https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearnerapp%20background.jpg') no-repeat center center / cover;
             z-index: 0;
         }
@@ -23,7 +23,6 @@
             color: black;
             font-family: sans-serif;
             line-height: 1.5;
-            padding-top: env(safe-area-inset-top);
             padding-bottom: env(safe-area-inset-bottom);
             padding-left: env(safe-area-inset-left);
             padding-right: env(safe-area-inset-right);
@@ -34,7 +33,7 @@
             width: 100%;
             max-width: 600px;
             margin: 0 auto;
-            padding: 0 20px 20px;
+            padding: 0 20px 20px 20px;
             box-sizing: border-box;
         }
         .rounded-container {
@@ -58,6 +57,7 @@
         .title {
             font-size: 32px;
             margin: 0;
+            color: #3b82f6;
         }
         .subtitle {
             font-size: 18px;
@@ -151,7 +151,7 @@
         }
         @media (max-width: 480px) {
             .container {
-                padding: 10px;
+                padding: 0 10px 10px 10px;
             }
             .title {
                 font-size: 28px;
