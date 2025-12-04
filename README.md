@@ -34,7 +34,7 @@
             width: 100%;
             max-width: 600px;
             margin: 0 auto;
-            padding: 0 20px 20px;
+            padding: 20px;
             box-sizing: border-box;
         }
         .rounded-container {
@@ -47,7 +47,6 @@
         .header {
             position: relative;
             text-align: center;
-            margin-top: 0;
         }
         .logo {
             width: 64px;
@@ -152,7 +151,7 @@
         }
         @media (max-width: 480px) {
             .container {
-                padding: 0 10px 20px;
+                padding: 10px;
             }
             .title {
                 font-size: 28px;
