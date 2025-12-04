@@ -1,4 +1,3 @@
-<!DOCTYPE html>  
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -23,6 +22,7 @@
             color: black;
             font-family: sans-serif;
             line-height: 1.5;
+            padding-top: env(safe-area-inset-top);
             padding-bottom: env(safe-area-inset-bottom);
             padding-left: env(safe-area-inset-left);
             padding-right: env(safe-area-inset-right);
@@ -33,14 +33,14 @@
             width: 100%;
             max-width: 600px;
             margin: 0 auto;
-            padding: 0 20px 20px 20px;
+            padding: 0 20px 20px;
             box-sizing: border-box;
         }
         .rounded-container {
             background: rgba(255, 255, 255, 0.5);
             border-radius: 20px;
             padding: 20px;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
             overflow-wrap: break-word;
         }
         .header {
@@ -57,7 +57,6 @@
         .title {
             font-size: 32px;
             margin: 0;
-            color: #3b82f6;
         }
         .subtitle {
             font-size: 18px;
@@ -151,7 +150,7 @@
         }
         @media (max-width: 480px) {
             .container {
-                padding: 0 10px 10px 10px;
+                padding: 10px;
             }
             .title {
                 font-size: 28px;
