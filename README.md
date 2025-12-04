@@ -9,6 +9,7 @@
             height: 100%;
             margin: 0;
             padding: 0;
+            overflow-x: hidden; /* Prevent horizontal overflow */
         }
         .background {
             position: fixed;
@@ -27,6 +28,10 @@
             padding-bottom: env(safe-area-inset-bottom);
             padding-left: env(safe-area-inset-left);
             padding-right: env(safe-area-inset-right);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            overflow-y: auto; /* Allow vertical scrolling if needed */
         }
         .container {
             position: relative;
@@ -34,12 +39,19 @@
             max-width: 600px;
             margin: 0 auto;
             padding: 20px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            overflow-wrap: break-word; /* Prevent text overflow */
         }
         .rounded-container {
             background: rgba(255, 255, 255, 0.5);
             border-radius: 20px;
             padding: 20px;
             margin-bottom: 40px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden; /* Prevent overflow in containers */
         }
         .header {
             position: relative;
@@ -85,6 +97,7 @@
         .section-text {
             font-size: 16px;
             margin: 0;
+            overflow-wrap: break-word; /* Prevent text overflow */
         }
         .yellow-icon {
             color: yellow;
