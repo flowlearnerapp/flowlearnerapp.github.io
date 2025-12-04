@@ -16,7 +16,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: url('[https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearnerapp%20background.jpg](https://github.com/flowlearnerapp/flowlearnerapp.github.io/blob/main/Flowlearner%20dark%20.png?raw=true]') no-repeat center center / cover;
+            background: url('[[https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearnerapp%20background.jpg](https://github.com/flowlearnerapp/flowlearnerapp.github.io/blob/main/Flowlearner%20dark%20.png?raw=true]](https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearner%20dark%20.png)') no-repeat center center / cover;
             z-index: 0;
         }
         body {
