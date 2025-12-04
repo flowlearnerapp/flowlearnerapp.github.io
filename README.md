@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Flowlearner</title>
     <style>
+        * {
+            box-sizing: border-box;
+        }
         html, body {
             height: 100%;
             margin: 0;
             padding: 0;
-            display: flex;
-            flex-direction: column;
-            overflow: hidden;
+            overflow-x: hidden;
         }
         .background {
             position: fixed;
@@ -30,8 +31,6 @@
             padding-bottom: env(safe-area-inset-bottom);
             padding-left: env(safe-area-inset-left);
             padding-right: env(safe-area-inset-right);
-            flex: 1;
-            overflow: hidden;
         }
         .container {
             position: relative;
@@ -39,20 +38,12 @@
             max-width: 600px;
             margin: 0 auto;
             padding: 20px;
-            display: flex;
-            flex-direction: column;
-            overflow-y: auto;
-            height: 100%;
-            box-sizing: border-box;
         }
         .rounded-container {
             background: rgba(255, 255, 255, 0.5);
             border-radius: 20px;
             padding: 20px;
             margin-bottom: 40px;
-            flex-shrink: 0;
-            overflow: hidden;
-            word-break: break-word;
         }
         .header {
             position: relative;
@@ -132,12 +123,6 @@
         .copyright {
             font-size: 12px;
             text-align: center;
-        }
-        @media (max-width: 767px) {
-            .container {
-                max-width: 100%;
-                padding: 10px;
-            }
         }
         @media (min-width: 768px) {
             .container {
