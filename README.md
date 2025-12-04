@@ -244,30 +244,31 @@
             </div>
             <p class="section-text">Learning isn't just about work; it's about growth and well-being. Flowlearner's exercises help clear your mind, reduce stress, and improve focus—perfect for winding down or recharging during the day.</p>
         </div>
-        <div class="rounded-container">
+<div class="rounded-container">
             <div class="section-header">
                 <span class="icon blue-icon">📱</span>
                 <h2 class="section-title">Follow Us</h2>
             </div>
             <p class="section-text">Follow us on social media to get exclusive updates on the Flowlearner app, sneak peeks at new features, and behind-the-scenes content. Be part of the journey from day one and get the latest news as we build something amazing!</p>
             <div class="social-buttons">
-                <button class="social-button">Instagram</button>
-                <button class="social-button">TikTok</button>
-                <button class="social-button">YouTube</button>
-                <button class="social-button">Bluesky</button>
-                <button class="social-button">Snapchat</button>
-                <button class="social-button">Reddit</button>
-                <button class="social-button">Mastodon</button>
-                <button class="social-button">Clubhouse</button>
-                <button class="social-button">Twitch</button>
-                <button class="social-button">Quora</button>
-                <button class="social-button">Pinterest</button>
-                <button class="social-button">Discord</button>
-                <button class="social-button">Medium</button>
-                <button class="social-button">X</button>
-                <button class="social-button">Telegram</button>
-                <button class="social-button">Threads</button>
+                <a class="social-button" href="https://www.instagram.com/flowlearnerapp/profilecard/?igsh=ZTZuZGxmeDh4NHk5" target="_blank">Instagram</a>
+                <a class="social-button" href="https://www.tiktok.com/@flowlearnerapp?_t=8rYAgm2WqqO&_r=1" target="_blank">TikTok</a>
+                <a class="social-button" href="https://youtube.com/@flowlearnerapp?si=Twh5d4r_0XDF2ahq" target="_blank">YouTube</a>
+                <a class="social-button" href="https://bsky.app/profile/flowlearner.app" target="_blank">Bluesky</a>
+                <a class="social-button" href="https://www.snapchat.com/add/flowlearnerapp?share_id=K8GyNWLwPUU&locale=en-GB" target="_blank">Snapchat</a>
+                <a class="social-button" href="https://www.reddit.com/u/Flowlearnerapp/s/vkHmCzbioT" target="_blank">Reddit</a>
+                <a class="social-button" href="https://mastodon.social/@flowlearnerapp" target="_blank">Mastodon</a>
+                <a class="social-button" href="https://www.clubhouse.com/@flowlearnerapp?utm_medium=ch_profile&utm_campaign=7YqXPZWcFT5oLos-ZzaV-g-1517986&chs=2d3SQbbE0R%3AUhvTZ6JFOty0GCIrefX5RExO2QyWONEFKy5Q82a99BM" target="_blank">Clubhouse</a>
+                <a class="social-button" href="https://www.twitch.tv/flowlearnerapp" target="_blank">Twitch</a>
+                <a class="social-button" href="https://www.quora.com/profile/FlowLearnerApp?ch=10&oid=2851138589&share=8be3e92c&srid=3AGvwK&target_type=user" target="_blank">Quora</a>
+                <a class="social-button" href="https://pin.it/21RAjRLOs" target="_blank">Pinterest</a>
+                <a class="social-button" href="https://discord.gg/hguTPEcHZg" target="_blank">Discord</a>
+                <a class="social-button" href="https://medium.com/@flowlearnerapp" target="_blank">Medium</a>
+                <a class="social-button" href="https://x.com/flowlearnerapp?s=09" target="_blank">X</a>
+                <a class="social-button" href="https://t.me/Flowlearnerapp" target="_blank">Telegram</a>
+                <a class="social-button" href="https://www.threads.net/@flowlearnerapp" target="_blank">Threads</a>
             </div>
+        </div>
         </div>
         <div class="support">
             bug@flowlearner.app support@flowlearner.app legal@flowlearner.app
