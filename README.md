@@ -34,7 +34,7 @@
             width: 100%;
             max-width: 600px;
             margin: 0 auto;
-            padding: 0 20px 20px; /* Removed top padding to delete space above the header container */
+            padding: 0 20px 20px 20px;
             box-sizing: border-box;
         }
         .rounded-container {
@@ -151,7 +151,7 @@
         }
         @media (max-width: 480px) {
             .container {
-                padding: 0 10px 10px;
+                padding: 0 10px 10px 10px;
             }
             .title {
                 font-size: 28px;
@@ -181,7 +181,6 @@
             <p class="fact">Did You Know? Otters hold hands while sleeping to prevent drifting apart!</p>
             <p class="coming-soon">Coming Soon /</p>
         </div>
-
         <div class="rounded-container">
             <div class="section-header">
                 <span class="icon yellow-icon">☀️</span>
@@ -189,7 +188,6 @@
             </div>
             <p class="section-text">Imagine waking up in the morning and starting your day with a quick, brain-boosting learning exercise. Rather than feeling sluggish, why not energize yourself with a fun challenge that sparks your curiosity and focus?</p>
         </div>
-
         <div class="rounded-container">
             <div class="section-header">
                 <span class="icon yellow-icon">🚀</span>
@@ -197,7 +195,6 @@
             </div>
             <p class="section-text">Whether you're on the bus, waiting in line, or taking a short break, every moment becomes an opportunity to learn. With Flowlearner, you can engage your mind, even without headphones, making every minute count.</p>
         </div>
-
         <div class="rounded-container">
             <div class="section-header">
                 <span class="icon yellow-icon">💡</span>
@@ -205,7 +202,6 @@
             </div>
             <p class="section-text">Flowlearner is designed to fuel your brain power with interactive games that are both fun and educational. Improve your skills and knowledge while enjoying the process!</p>
         </div>
-
         <div class="rounded-container">
             <div class="section-header">
                 <span class="icon yellow-icon">👥</span>
@@ -213,7 +209,6 @@
             </div>
             <p class="section-text">Learning is more enjoyable when you can challenge friends and track your progress together. Flowlearner makes it easy to connect with others, turning your learning journey into a dynamic, social experience.</p>
         </div>
-
         <div class="rounded-container">
             <div class="section-header">
                 <span class="icon blue-icon">📈</span>
@@ -221,7 +216,6 @@
             </div>
             <p class="section-text">With Flowlearner, you can easily track your learning journey. Monitor your progress, set goals, and celebrate your achievements as you level up your skills and knowledge.</p>
         </div>
-
         <div class="rounded-container">
             <div class="section-header">
                 <span class="icon blue-icon">🌐</span>
@@ -229,7 +223,6 @@
             </div>
             <p class="section-text">Learning is a lifelong journey, and at Flowlearner, we believe in evolving together. Join a vibrant community of learners who are passionate about growth, exploration, and fun.</p>
         </div>
-
         <div class="rounded-container">
             <div class="section-header">
                 <span class="icon yellow-icon">⭐</span>
@@ -237,7 +230,6 @@
             </div>
             <p class="section-text">Everyone has an ideal version of themselves—someone who is constantly growing, learning, and evolving. Flowlearner helps you take actionable steps towards becoming that person every day, with bite-sized learning opportunities that fit your lifestyle.</p>
         </div>
-
         <div class="rounded-container">
             <div class="section-header">
                 <span class="icon purple-icon">🎮</span>
@@ -245,7 +237,6 @@
             </div>
             <p class="section-text">Say goodbye to boring textbooks and hello to interactive educational games that make learning feel like play! Flowlearner's gamified approach turns every challenge into an opportunity to grow while having fun.</p>
         </div>
-
         <div class="rounded-container">
             <div class="section-header">
                 <span class="icon yellow-icon">🧘</span>
@@ -253,7 +244,6 @@
             </div>
             <p class="section-text">Learning isn't just about work; it's about growth and well-being. Flowlearner's exercises help clear your mind, reduce stress, and improve focus—perfect for winding down or recharging during the day.</p>
         </div>
-
         <div class="rounded-container">
             <div class="section-header">
                 <span class="icon blue-icon">📱</span>
@@ -279,11 +269,9 @@
                 <button class="social-button">Threads</button>
             </div>
         </div>
-
         <div class="support">
             bug@flowlearner.app support@flowlearner.app legal@flowlearner.app
         </div>
-
         <div class="copyright">
             © 2025 Flowlearner. All rights reserved.
         </div>
