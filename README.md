@@ -268,11 +268,13 @@
             </div>
         </div>
         <div class="support">
-            bug@flowlearner.app support@flowlearner.app legal@flowlearner.app
-        </div>
-        <div class="copyright">
-            © 2025 Flowlearner. All rights reserved.
-        </div>
-    </div>
+    <a href="mailto:bug@flowlearner.app">bug@flowlearner.app</a> 
+    <a href="mailto:support@flowlearner.app">support@flowlearner.app</a> 
+    <a href="mailto:legal@flowlearner.app">legal@flowlearner.app</a>
+</div>
+<div class="copyright">
+    © 2025 Flowlearner. All rights reserved.
+</div>
+</div>
 </body>
 </html>
