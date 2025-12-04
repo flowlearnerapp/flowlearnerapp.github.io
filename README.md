@@ -178,8 +178,6 @@
             <img src="https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearner_Logo.png" alt="Flowlearner Logo" class="logo">
             <h1 class="title">Flowlearner</h1>
             <p class="subtitle">Welcome to the Future of Fun Interactive Learning!</p>
-            <p class="fact">Did You Know? Otters hold hands while sleeping to prevent drifting apart!</p>
-            <p class="coming-soon">Coming Soon /</p>
         </div>
         <div class="rounded-container">
             <div class="section-header">
