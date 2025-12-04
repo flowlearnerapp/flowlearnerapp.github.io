@@ -9,7 +9,6 @@
             height: 100%;
             margin: 0;
             padding: 0;
-            overflow-wrap: break-word;
         }
         .background {
             position: fixed;
@@ -18,7 +17,7 @@
             width: 100%;
             height: 100%;
             background: url('https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearnerapp%20background.jpg') no-repeat center center / cover;
-            z-index: -1;
+            z-index: 0;
         }
         body {
             color: black;
@@ -32,19 +31,21 @@
         .container {
             position: relative;
             z-index: 1;
+            width: 100%;
             max-width: 600px;
             margin: 0 auto;
             padding: 20px;
+            box-sizing: border-box;
         }
         .rounded-container {
             background: rgba(255, 255, 255, 0.5);
             border-radius: 20px;
             padding: 20px;
             margin-bottom: 40px;
-            box-sizing: border-box;
-            width: 100%;
+            overflow-wrap: break-word;
         }
         .header {
+            position: relative;
             text-align: center;
         }
         .logo {
@@ -61,10 +62,12 @@
         .subtitle {
             font-size: 18px;
             margin: 10px 0;
+            overflow-wrap: break-word;
         }
         .fact {
             font-size: 16px;
             margin: 10px 0;
+            overflow-wrap: break-word;
         }
         .coming-soon {
             font-size: 14px;
@@ -87,6 +90,7 @@
         .section-text {
             font-size: 16px;
             margin: 0;
+            overflow-wrap: break-word;
         }
         .yellow-icon {
             color: yellow;
@@ -100,7 +104,7 @@
         .social-buttons {
             display: flex;
             flex-wrap: wrap;
-            justify-content: left;
+            justify-content: flex-start;
             margin: 20px 0;
         }
         .social-button {
@@ -121,33 +125,6 @@
         .copyright {
             font-size: 12px;
             text-align: center;
-        }
-        @media (max-width: 767px) {
-            .container {
-                padding: 10px;
-            }
-            .rounded-container {
-                padding: 15px;
-                margin-bottom: 20px;
-            }
-            .title {
-                font-size: 28px;
-            }
-            .subtitle {
-                font-size: 16px;
-            }
-            .fact {
-                font-size: 14px;
-            }
-            .section-title {
-                font-size: 20px;
-            }
-            .section-text {
-                font-size: 14px;
-            }
-            .social-buttons {
-                justify-content: center;
-            }
         }
         @media (min-width: 768px) {
             .container {
@@ -170,6 +147,26 @@
             }
             .yellow-icon {
                 color: yellow;
+            }
+        }
+        @media (max-width: 480px) {
+            .container {
+                padding: 10px;
+            }
+            .title {
+                font-size: 28px;
+            }
+            .subtitle {
+                font-size: 16px;
+            }
+            .fact {
+                font-size: 14px;
+            }
+            .section-title {
+                font-size: 20px;
+            }
+            .section-text {
+                font-size: 14px;
             }
         }
     </style>
