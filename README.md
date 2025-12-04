@@ -15,7 +15,7 @@
             top: 0;
             left: 0;
             width: 100%;
-            height: 100%;
+            height: 0%;
             background: url('https://raw.githubusercontent.com/flowlearnerapp/flowlearnerapp.github.io/refs/heads/main/Flowlearnerapp%20background.jpg') no-repeat center center / cover;
             z-index: 0;
         }
