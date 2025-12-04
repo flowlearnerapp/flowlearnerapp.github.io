@@ -12,7 +12,6 @@
             height: 100%;
             margin: 0;
             padding: 0;
-            overflow-x: hidden;
         }
         .background {
             position: fixed;
@@ -59,6 +58,9 @@
         .title {
             font-size: 32px;
             margin: 0;
+        }
+        .subtitle, .fact, .section-text, .support, .copyright {
+            overflow-wrap: break-word;
         }
         .subtitle {
             font-size: 18px;
@@ -145,6 +147,23 @@
             }
             .yellow-icon {
                 color: yellow;
+            }
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            .rounded-container {
+                padding: 10px;
+            }
+            .title {
+                font-size: 28px;
+            }
+            .subtitle {
+                font-size: 16px;
+            }
+            .fact, .section-text {
+                font-size: 14px;
             }
         }
     </style>
